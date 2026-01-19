@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { useTheme } from "../providers/ThemeProvider"
 import { Outlet } from "react-router-dom";
+import { Header } from "../componets/common/Header";
 
 export const Layout = () => {
     /* const { darkMode } = useTheme();
@@ -18,8 +19,8 @@ export const Layout = () => {
 
     return (
         <div>
-            <header className="sticky top-0 w-full z-50">
-                Header
+            <header className="fixed top-0 w-full z-50 flex justify-center pt-16.75">
+                <Header/>
             </header>
             <main>
                 <Outlet/>
