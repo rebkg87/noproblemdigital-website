@@ -4,6 +4,7 @@ import './styles/globals.css'
 import { ThemeProvider } from './providers/ThemeProvider'
 import { RouterProvider } from 'react-router-dom'
 import { router } from './router'
+import './i18n';
 
 
 createRoot(document.getElementById('root')).render(
