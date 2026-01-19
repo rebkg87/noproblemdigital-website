@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logoNPD from '../../images/Logo_primary.png'
+import logoNPD from '../../../assets/images/Logo_primary.png'
 
 export default function NPDLogo () {
     return (

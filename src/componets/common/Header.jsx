@@ -1,4 +1,4 @@
-import NPDLogo from "../../assets/icons/custom/NPDlogo"
+import NPDLogo from "../icons/custom/NPDlogo"
 import { LanguageToggle } from "../ui/LanguageToggle"
 import { NavigationMenu } from "../ui/NavigationMenu"
 import { ThemeToggle } from "../ui/ThemeToggle"
