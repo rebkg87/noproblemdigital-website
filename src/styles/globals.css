@@ -1,92 +1,105 @@
 @import "tailwindcss";
 
 @theme {
+        
+    /* PRIMITIVE TOKENS  */
 
-    /* PRIMITIVE COLORS */
+    /* Base */
+    --color-black: #0e0e0e;
+    --color-white: #ffffff;
 
-    /* Blue scale */
-    --color-blue-50: #E4EDED;
-    --color-blue-100: #BCD5D4;
-    --color-blue-200: #91B9B7;
-    --color-blue-300: #67878A;
-    --color-blue-400: #486B87;
+    /* Blue */
+    --color-blue-50: #e4e8ed;
+    --color-blue-100: #bbc5d4;
+    --color-blue-200: #919fb7;
+    --color-blue-300: #687b9a;
+    --color-blue-400: #486087;
     --color-blue-500: #264776;
-    --color-blue-600: #1F406E;
+    --color-blue-600: #1f406e;
     --color-blue-700: #173763;
-    --color-blue-800: #112E57;
-    --color-blue-900: #0A1E3F;
+    --color-blue-800: #112e57;
+    --color-blue-900: #0a1e3f;
 
-    /* Pink scale */
-    --color-pink-50: #FFEBF0;
-    --color-pink-100: #FCCD7D;
-    --color-pink-200: #F9C8A0;
-    --color-pink-300: #FFB0A0;
-    --color-pink-400: #FF4358;
-    --color-pink-500: #FE113D;
-    --color-pink-600: #DF002E;
-    --color-pink-700: #BF0020;
-    --color-pink-800: #A00020;
-    --color-pink-900: #D10020;
+    /* Magenta */
+    --color-magenta-50: #ffebf0;
+    --color-magenta-100: #ffcdd7;
+    --color-magenta-200: #fc98a0;
+    --color-magenta-300: #f76d7a;
+    --color-magenta-400: #ff4358;
+    --color-magenta-500: #ff213c;
+    --color-magenta-600: #fe113d;
+    --color-magenta-700: #eb0036;
+    --color-magenta-800: #df002e;
+    --color-magenta-900: #d10020;
 
-    /* Neutral scale */
-    --color-neutral-50: #F7F7F7;
-    --color-neutral-100: #EDEDED;
-    --color-neutral-200: #E0E0E0;
-    --color-neutral-300: #D1D1D1;
-    --color-neutral-400: #B3B3B3;
-    --color-neutral-500: #999999;
-    --color-neutral-600: #737373;
-    --color-neutral-700: #4D4D4D;
-    --color-neutral-800: #333333;
-    --color-neutral-900: #1A1A1A;
+    /* Gray */
+    --color-gray-50: #f7f7f7;
+    --color-gray-100: #ededed;
+    --color-gray-200: #e0e0e0;
+    --color-gray-300: #d1d1d1;
+    --color-gray-400: #b3b3b3;
+    --color-gray-500: #999999;
+    --color-gray-600: #737373;
+    --color-gray-700: #4d4d4d;
+    --color-gray-800: #333333;
+    --color-gray-900: #1a1a1a;
 
-    /* High contrast */
-    --color-white: #FFFFFF;
-    --color-black: #0E0E0E;
 
-    /* SEMANTIC COLORS */
+    /* VARIABLES (FIGMA VARIABLES) */
+
+    --color-namespace: #c0a600;
+    --color-object: #0ba122;
+    --color-base: #386cfe;
+    --color-modifier: #bf292e;
+
+    --table-full: #c5e8cb;
+    --table-x: #d78e7e;
+
+
+    /*  SEMANTIC TOKENS */
 
     /* Brand */
-    --color-brand-primary: var(--color-blue-900);
-    --color-brand-secondary: var(--color-pink-500);
-
-    /* Background */
-    --color-bg-light: var(--color-white);
-    --color-bg-dark: var(--color-blue-900);
-    --color-bg-accent: var(--color-pink-500);
+    --brand-primary: var(--color-blue-900);
+    --brand-secondary: var(--color-magenta-600);
 
     /* Content */
-    --color-content-primary: var(--color-neutral-700);
-    --color-content-secondary: var(--color-neutral-400);
-    --color-content-inverse: var(--color-white);
+    --content-primary: var(--color-gray-700);
+    --content-secondary: var(--color-gray-400);
+    --content-inverse: var(--color-white);
 
     /* State */
-    --color-state-active: var(--color-pink-900);
-    --color-state-focus: var(--color-blue-500);
-    --color-state-hover-primary: var(--color-blue-700);
-    --color-state-hover-accent: var(--color-pink-300);
-    --color-state-disabled-bg: var(--color-neutral-200);
-    --color-state-disabled-text: var(--color-neutral-400);
+    --state-active: var(--color-magenta-900);
+    --state-focus: var(--color-blue-500);
+
+    --state-hover-primary: var(--color-blue-700);
+    --state-hover-accent: var(--color-magenta-400);
+
+    --state-disabled-content: var(--color-gray-400);
+    --state-disabled-background: var(--color-gray-200);
 
     /* Surface */
-    --color-surface-base: transparent;
-    --color-surface-hover-accent: var(--color-pink-300);
-    --color-surface-hover-dark: var(--color-blue-400);
-    --color-surface-shadow: rgba(0, 0, 0, 0.15);
-    --color-surface-border-primary: var(--color-pink-600);
-    --color-surface-border-secondary: var(--color-white);
+    --surface-base: var(--color-white);
+    --surface-shadow: color-mix(in srgb, var(--color-black) 15%, transparent);
+
+    --surface-hover-accent: var(--color-magenta-300);
+    --surface-hover-dark: var(--color-blue-400);
+
+    --surface-border-primary: var(--color-magenta-600);
+    --surface-border-secondary: var(--color-white);
 
     /* Functional */
-    --color-func-accent: var(--color-pink-600);
-    --color-func-success: #1AA7FA;
-    --color-func-warning: #EECE00;
-    --color-func-error: #FF131B;
+    --functional-action: #fe113d;
+    --functional-success: #0d875e;
+    --functional-warning: #eece00;
+    --functional-error: #db3327;
 
     /* Fonts Tokens */
 
     /* Font families */
-    --font-primary: 'Plus Jakarta Sans', sans-serif;
-    --font-secondary: 'Nunito', sans-serif;
+    --font-primary: 'Plus Jakarta Sans',
+    sans-serif;
+    --font-secondary: 'Nunito',
+    sans-serif;
 
     /* Headings */
     --font-h1-family: var(--font-primary);
