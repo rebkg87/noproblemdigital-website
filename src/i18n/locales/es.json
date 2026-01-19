@@ -1,0 +1,10 @@
+{
+    "header": {
+        "nav-items": {
+            "menu-item-1": "SERVICIOS",
+            "menu-item-2": "PORTAFOLIO",
+            "menu-item-3": "NOSOTROS",
+            "menu-item-4": "CONTACTO"
+        }
+    }
+}
