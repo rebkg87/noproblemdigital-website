@@ -1,8 +1,11 @@
+import { useTranslation } from 'react-i18next';
 import bgHero from '../../../assets/images/bg-hero.png'
 import { Button } from '../../../componets/ui/Button'
 import { TextSection } from './components/TextSection'
 
 export const HomepageHeroSection = () => {
+    const { t } = useTranslation();
+    const buttonText = t("hero.button-text");
     return (
         <section
             className="bg-cover h-190"
@@ -12,7 +15,7 @@ export const HomepageHeroSection = () => {
                 <TextSection/>
                 <Button 
                     buttonStyle="bg-brand-secondary  hover:bg-state-hover-accent  focus:border-brand-secondary text-white"
-                    buttonText="Empieza tu proyecto"
+                    buttonText={buttonText}
                     />
             </div>
         </section>

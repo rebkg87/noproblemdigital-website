@@ -7,6 +7,11 @@
             "menu-item-4": "CONTACTO"
         }
     },
+    "hero": {
+        "title": "sin complicaciones.",
+        "subtitle": "Creamos marcas auténticas que venden, conectan y crecen contigo. Nos encargamos de lo complejo para que tú te enfoques en lo importante.",
+        "button-text": "Empieza tu proyecto"
+    },
     "services": {
         "rotating": [
             "Diseño Gráfico",

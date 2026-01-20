@@ -7,6 +7,11 @@
             "menu-item-4": "CONTACT"
         }
     },
+    "hero": {
+        "title": "without the hassle.",
+        "subtitle": "We create authentic brands that sell, connect, and grow with you. We handle the complexities so you can focus on what matters.",
+        "button-text": "Start your project"
+    },
     "services": {
         "rotating": [
             "Graphic Design",
