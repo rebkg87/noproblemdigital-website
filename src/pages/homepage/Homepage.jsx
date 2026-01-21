@@ -2,6 +2,8 @@ import { useTranslation } from "react-i18next"
 import { ScrollVelocityMarquee } from "../../componets/ui/ScrollVelocityMarquee"
 import { HomepageHeroSection } from "./sections/HomepageHeroSection"
 import { BenefitsSection } from "./sections/BenefitsSection"
+import { ServicesSection } from "./sections/ServicesSection"
+import { AboutSection } from "./sections/AboutSection"
 
 export const Homepage = () => {
     const {t} = useTranslation()
@@ -14,6 +16,8 @@ export const Homepage = () => {
                 />
             </div>
             <BenefitsSection/>
+            <ServicesSection/>
+            <AboutSection/>
         </div>
     )
 }

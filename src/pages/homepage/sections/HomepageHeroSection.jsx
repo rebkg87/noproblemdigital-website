@@ -12,7 +12,7 @@ export const HomepageHeroSection = () => {
             style={{ backgroundImage: `url(${bgHero})` }}
         >
             <div className='pt-66 flex flex-col items-center justify-center gap-14.25'>
-                <TextSection isAnimated titleKey='hero.title' subtitleKey='hero.subtitle' variant='hero' className='gap-5' subtitleClassName='max-w-120'/>
+                <TextSection isAnimated titleKey='hero.title' subtitleKey='hero.subtitle' variant='hero' contentClassName='gap-5' subtitleClassName='max-w-120'/>
                 <Button variant='primary'>{buttonText}</Button>
             </div>
         </section>

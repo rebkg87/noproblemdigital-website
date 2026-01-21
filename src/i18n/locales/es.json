@@ -31,6 +31,41 @@
         ]
     },
     "services": {
+        "label": "SERVICIOS",
+        "title": "Todo lo que *tu marca* necesita,\nen un solo lugar.",
+        "subtitle": "Desde la idea hasta la ejecución.\n Diseñamos, escribimos, desarrollamos y lanzamos proyectos que se ven bien, funcionan y conectan con la gente adecuada.\nTrabajamos contigo para que cada parte de tu marca tenga sentido, coherencia y estrategia.",
+        "cards": [
+            {
+                "title": "Diseño Gráfico",
+                "description": "Creamos piezas visuales que elevan tu marca y transmiten su personalidad, desde redes sociales hasta campañas completas.",
+                "href": "/servicios/diseno-grafico"
+            },
+            {
+                "title": "Branding",
+                "description": "No es solo un logo. Es cómo te ven, qué transmites y qué recuerdan de ti. Te ayudamos a construir una marca con identidad propia.",
+                "href": "/servicios/branding"
+            },
+            {
+                "title": "Desarrollo Web",
+                "description": "Diseñamos y desarrollamos webs responsivas, rápidas y alineadas a tu propósito. Pensadas para verse brutales y funcionar sin fallos.",
+                "href": "/servicios/diseno-web"
+            },
+            {
+                "title": "Estategia Digital",
+                "description": "Cada acción debe tener un porqué. Armamos contigo una estrategia clara que guíe tu marca, campañas o lanzamientos.",
+                "href": "/servicios/estrategia-digital"
+            },
+            {
+                "title": "Copywriting",
+                "description": "Textos que suenan como tú, pero venden como nadie. Webs, redes, anuncios y todo lo que necesite una voz potente (y coherente).",
+                "href": "/servicios/copywriting"
+            },
+            {
+                "title": "Fotografía",
+                "description": "Contenido visual auténtico y profesional. Sesiones de producto, retratos y lifestyle que muestran lo mejor de tu marca.",
+                "href": "/servicios/fotografia"
+            }
+        ],
         "rotating": [
             "Diseño Gráfico",
             "Branding",
@@ -39,5 +74,9 @@
             "Copywriting",
             "Fotografía"
         ]
+    },
+    "about":{
+        "title": "Tu equipo creativo, estratégico y sin rodeos.",
+        "subtitle": "Somos un estudio creativo que une diseño, desarrollo, marketing y contenido para ayudar a marcas a crecer con claridad, coherencia y propósito. Con más de 15 años de experiencia combinada, trabajamos desde un enfoque integral que va más allá de lo visual: entendemos qué necesita tu proyecto, cómo comunicarlo y cómo hacerlo funcionar.\n\nEn No Problem Digital creemos en trabajar de forma cercana, clara y alineada a tus objetivos. No usamos fórmulas vacías ni tecnicismos innecesarios: transformamos ideas en resultados reales, sin complicaciones."
     }
 }

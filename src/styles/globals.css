@@ -117,7 +117,7 @@
     --text-size-h3: 20px;
     --spacing-line-h3: 50px;
     --font-weight-h3: 800;
-    --font-h3-spacing: 0.23em;
+    --letter-spacing-h3: 0.23em;
 
     --font-family-h4: var(--font-secondary);
     --text-size-h4: 24px;
@@ -136,7 +136,8 @@
     --font-weight-b1: 400;
 
     --font-family-b2: var(--font-secondary);
-    --text-size-b2: 24px;
+    --text-size-b2: 16px;
+    --spacing-line-b3: 20px;
     --font-weight-b2: 400;
 
     --font-family-b3: var(--font-secondary);
