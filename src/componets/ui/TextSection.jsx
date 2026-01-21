@@ -14,7 +14,7 @@ const variants = {
         label: 'text-brand-secondary',
         highlight: '',
         title: 'text-brand-primary',
-        subtitle: 'text-content-secondary'
+        subtitle: 'text-content-primary'
     },
     accent: {
         container: '',
@@ -40,12 +40,13 @@ const alignmentClasses = {
 
 export const TextSection = ({
     labelKey = null,
-    titleKey = "hero.title",
+    titleKey = null,
     subtitleKey = null,
     highlightKey = null,
     isAnimated = false,
     alignment = "center",
     variant = "hero",
+    subtitleClassName = "",
     className = ""
 }) => {
     const { t } = useTranslation();
@@ -57,14 +58,14 @@ export const TextSection = ({
     const align = alignmentClasses[alignment];
 
     return (
-        <div className={`flex flex-col ${align} w-auto h-auto gap-5 ${className}`}>
+        <div className={`flex flex-col ${align} w-auto h-auto ${className}`}>
             {label && (
                 <span className={`font-secondary text-size-s1 uppercase tracking-widest ${colors.label}`}>
                     {label}
                 </span>
             )}
 
-            <h1 className={`font-h1 text-size-h1 line-height-h1 font-primary ${colors.title}`}>
+            <h1 className={`font-h1 text-size-h1 leading-line-h1 font-primary whitespace-pre-line ${colors.title}`}>
                 {isAnimated ? (
                     <div className={`relative inline-flex h-30 justify-center items-center ${colors.highlight}`}>
                         <AnimatedHeroText />
@@ -76,7 +77,7 @@ export const TextSection = ({
             </h1>
 
             {subtitle && (
-                <p className={`font-secondary font-b1 line-height-b1 text-size-b1 max-w-120 ${colors.subtitle}`}>
+                <p className={`font-secondary font-b1 leading-line-b1 text-size-b1 ${subtitleClassName} whitespace-pre-line ${colors.subtitle}`}>
                     {subtitle}
                 </p>
             )}
