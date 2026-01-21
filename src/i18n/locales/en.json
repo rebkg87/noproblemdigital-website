@@ -6,5 +6,38 @@
             "menu-item-3": "ABOUT US",
             "menu-item-4": "CONTACT"
         }
+    },
+    "hero": {
+        "title": "without the hassle.",
+        "subtitle": "We create authentic brands that sell, connect, and grow with you. We handle the complexities so you can focus on what matters.",
+        "button-text": "Start your project"
+    },
+    "benefits": {
+        "title": "We design\nwith purpose.\nWe work\nwith you.",
+        "subtitle": "It's not just about having a beautiful brand or a functional website. It's about feeling supported, having clarity, and trusting that your project is in good hands.\nAt No Problem Digital, we combine design, strategy, and content to help your brand grow with purpose and without complications.",
+        "cards": [
+            {
+                "title": "Everything in one place",
+                "description": "Branding, web, strategy, content, campaigns, photography…\nWe take care of everything so you don't have to juggle multiple providers."
+            },
+            {
+                "title": "Clarity, no jargon",
+                "description": "We explain everything in plain language. No fluff, no empty buzzwords.\nWe want you to understand your brand as well as we do."
+            },
+            {
+                "title": "Solutions that connect (and convert)",
+                "description": "Our approach goes beyond aesthetics: everything we design is meant to attract, engage, and convert."
+            }
+        ]
+    },
+    "services": {
+        "rotating": [
+            "Graphic Design",
+            "Branding",
+            "Web",
+            "Strategy",
+            "Copywriting",
+            "Photography"
+        ]
     }
 }

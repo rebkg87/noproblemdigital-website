@@ -10,7 +10,7 @@ export const Footer = () => {
             <div className="flex flex-col items-center gap-3.75 w-95.75">
                 <NavigationMenu/>
                 <p className="text-brand-secondary font-l3 text-size-l3 font-family-l3">
-                    © 2025 NoProbleMDigital. All rights reserved.
+                    © 2025 NoProblemDigital. All rights reserved.
                 </p>
             </div>
             <div className="flex flex-row items-center gap-5">

@@ -6,5 +6,38 @@
             "menu-item-3": "NOSOTROS",
             "menu-item-4": "CONTACTO"
         }
+    },
+    "hero": {
+        "title": "sin complicaciones.",
+        "subtitle": "Creamos marcas auténticas que venden, conectan y crecen contigo. Nos encargamos de lo complejo para que tú te enfoques en lo importante.",
+        "button-text": "Empieza tu proyecto"
+    },
+    "benefits": {
+        "title": "Diseñamos\ncon propósito.\nTrabajamos\ncontigo.",
+        "subtitle": "No se trata solo de tener una marca bonita o una web funcional. Se trata de sentirte acompañada, de tener claridad y de confiar en que tu proyecto está en buenas manos.\n \n En No Problem Digital, combinamos diseño, estrategia y contenido para que tu marca crezca con propósito y sin complicaciones.",
+        "cards": [
+            {
+                "title": "Todo en un mismo lugar",
+                "description": "Branding, web, estrategia, contenido, campañas, fotografía…\nNos encargamos de todo para que no tengas que coordinar mil proveedores distintos."
+            },
+            {
+                "title": "Sin tecnisismos, con claridad",
+                "description": "Te explicamos todo en tu idioma. Sin rodeos, sin palabrería vacía.\nQueremos que entiendas tu marca tanto como nosotros."
+            },
+            {
+                "title": "Soluciones que conectan \n(y venden)",
+                "description": "Nuestro enfoque no es solo estético: todo lo que diseñamos está pensado para atraer, emocionar y convertir."
+            }
+        ]
+    },
+    "services": {
+        "rotating": [
+            "Diseño Gráfico",
+            "Branding",
+            "Web",
+            "Estrategia",
+            "Copywriting",
+            "Fotografía"
+        ]
     }
 }
