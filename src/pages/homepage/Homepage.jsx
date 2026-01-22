@@ -5,6 +5,7 @@ import { BenefitsSection } from "./sections/BenefitsSection"
 import { ServicesSection } from "./sections/ServicesSection"
 import { AboutSection } from "./sections/AboutSection"
 import { ProjectsSection } from "./sections/ProjectsSection"
+import { CTASection } from "./sections/CTASection"
 
 export const Homepage = () => {
     const {t} = useTranslation()
@@ -20,6 +21,7 @@ export const Homepage = () => {
             <ServicesSection/>
             <AboutSection/>
             <ProjectsSection/>
+            <CTASection/>
         </div>
     )
 }

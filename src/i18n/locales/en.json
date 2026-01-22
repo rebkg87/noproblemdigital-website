@@ -1,10 +1,26 @@
 {
     "navigation": {
         "nav-items": [
-            { "label": "SERVICES", "href": "/services", "enabled": false },
-            { "label": "PROJECTS", "href": "/projects", "enabled": false },
-            { "label": "ABOUT US", "href": "/about", "enabled": false },
-            { "label": "CONTACT", "href": "/contact", "enabled": true }
+            {
+                "label": "SERVICES",
+                "href": "/services",
+                "enabled": false
+            },
+            {
+                "label": "PROJECTS",
+                "href": "/projects",
+                "enabled": false
+            },
+            {
+                "label": "ABOUT US",
+                "href": "/about",
+                "enabled": false
+            },
+            {
+                "label": "CONTACT",
+                "href": "/contact",
+                "enabled": true
+            }
         ]
     },
     "hero": {
@@ -76,7 +92,7 @@
         ]
     },
     "about": {
-        "title": "Your creative, strategic team — no nonsense.",
+        "title": "Your creative, strategic team\n— no nonsense.",
         "subtitle": "We are a creative studio that brings together design, development, marketing, and content to help brands grow with clarity, coherence, and purpose. With over 15 years of combined experience, we work from a holistic approach that goes beyond visuals: we understand what your project needs, how to communicate it, and how to make it work.\n\nAt No Problem Digital, we believe in working closely with you, with transparency and aligned to your goals. No empty formulas or unnecessary jargon — we turn ideas into real results, without complications."
     },
     "projects": {
@@ -110,5 +126,10 @@
             }
         ],
         "button-text": "See our projects"
+    },
+    "cta": {
+        "title": "*Your brand* doesn’t have\nto do it alone.",
+        "subtitle": "A brand with intention starts with a good conversation.",
+        "button-text": "Let’s start your project"
     }
 }

@@ -84,5 +84,10 @@
         "title": "Proyectos *con propósito*,\ndiseño con intención.",
         "subtitle": "Cada proyecto que ves aquí fue creado con estrategia, diseño y una ejecución pensada al detalle.\n Trabajamos con marcas que quieren destacar, comunicar con claridad y conectar con su audiencia de forma auténtica.\nDesde branding hasta desarrollo web, pasando por campañas, contenido y fotografía, nuestra misión siempre es la misma:\ntransformar ideas en resultados visuales y funcionales que impulsan a nuestros clientes a crecer.",
         "button-text": "Ver nuestros proyectos"
+    },
+    "cta":{
+        "title": "*Tu marca* no tiene\nque hacerlo todo sola.",
+        "subtitle": "Una marca con intención empieza con una buena conversación.",
+        "button-text": "Empiecemos con tu proyecto"
     }
 }
