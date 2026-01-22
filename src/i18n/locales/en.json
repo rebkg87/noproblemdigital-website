@@ -1,11 +1,11 @@
 {
-    "header": {
-        "nav-items": {
-            "menu-item-1": "SERVICES",
-            "menu-item-2": "PROJECTS",
-            "menu-item-3": "ABOUT US",
-            "menu-item-4": "CONTACT"
-        }
+    "navigation": {
+        "nav-items": [
+            { "label": "SERVICES", "href": "/services", "enabled": false },
+            { "label": "PROJECTS", "href": "/projects", "enabled": false },
+            { "label": "ABOUT US", "href": "/about", "enabled": false },
+            { "label": "CONTACT", "href": "/contact", "enabled": true }
+        ]
     },
     "hero": {
         "title": "without the hassle.",

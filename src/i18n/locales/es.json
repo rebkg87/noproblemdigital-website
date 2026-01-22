@@ -1,11 +1,11 @@
 {
-    "header": {
-        "nav-items": {
-            "menu-item-1": "SERVICIOS",
-            "menu-item-2": "PROYECTOS",
-            "menu-item-3": "NOSOTROS",
-            "menu-item-4": "CONTACTO"
-        }
+    "navigation": {
+        "nav-items": [
+            { "label": "SERVICIOS", "href": "/servicios", "enabled": false },
+            { "label": "PROYECTOS", "href": "/proyectos", "enabled": false },
+            { "label": "NOSOTROS", "href": "/nosotros", "enabled": false },
+            { "label": "CONTACTO", "href": "/contacto", "enabled": true }
+        ]
     },
     "hero": {
         "title": "sin complicaciones.",
