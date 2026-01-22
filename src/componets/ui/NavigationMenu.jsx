@@ -5,7 +5,7 @@ export const NavigationMenu = () => {
 
     const navItems = [
         {key: 'header.nav-items.menu-item-1', href: '/servicios'},
-        {key: 'header.nav-items.menu-item-2', href: '/portafolio'},
+        {key: 'header.nav-items.menu-item-2', href: '/proyectos'},
         {key: 'header.nav-items.menu-item-3', href: '/nosotros'},
         {key: 'header.nav-items.menu-item-4', href: '/contactos'},
 

@@ -2,7 +2,7 @@
     "header": {
         "nav-items": {
             "menu-item-1": "SERVICIOS",
-            "menu-item-2": "PORTAFOLIO",
+            "menu-item-2": "PROYECTOS",
             "menu-item-3": "NOSOTROS",
             "menu-item-4": "CONTACTO"
         }
@@ -75,8 +75,14 @@
             "Fotografía"
         ]
     },
-    "about":{
+    "about": {
         "title": "Tu equipo creativo, estratégico y sin rodeos.",
         "subtitle": "Somos un estudio creativo que une diseño, desarrollo, marketing y contenido para ayudar a marcas a crecer con claridad, coherencia y propósito. Con más de 15 años de experiencia combinada, trabajamos desde un enfoque integral que va más allá de lo visual: entendemos qué necesita tu proyecto, cómo comunicarlo y cómo hacerlo funcionar.\n\nEn No Problem Digital creemos en trabajar de forma cercana, clara y alineada a tus objetivos. No usamos fórmulas vacías ni tecnicismos innecesarios: transformamos ideas en resultados reales, sin complicaciones."
+    },
+    "projects": {
+        "label": "PROYECTOS",
+        "title": "Proyectos *con propósito*,\ndiseño con intención.",
+        "subtitle": "Cada proyecto que ves aquí fue creado con estrategia, diseño y una ejecución pensada al detalle.\n Trabajamos con marcas que quieren destacar, comunicar con claridad y conectar con su audiencia de forma auténtica.\nDesde branding hasta desarrollo web, pasando por campañas, contenido y fotografía, nuestra misión siempre es la misma:\ntransformar ideas en resultados visuales y funcionales que impulsan a nuestros clientes a crecer.",
+        "button-text": "Ver nuestros proyectos"
     }
 }
