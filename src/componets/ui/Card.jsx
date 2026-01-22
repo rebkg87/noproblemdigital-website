@@ -27,6 +27,7 @@ export const Card = ({
     size = 'horizontal',
     titleTextSize = 'sm',
     descriptionTextSize = 'md',
+    onButtonClick = null,
     className = '',
     ...props }) => {
 
@@ -34,14 +35,17 @@ export const Card = ({
         const descriptionClasses = descriptionTextSizes[descriptionTextSize];
 
         return (
-            <div className={`${variants[variant]} ${sizes[size]} flex flex-col justify-between items-start text-left rounded-lg ${className}`} {...props}>
+            <div className={`${variants[variant]} ${sizes[size]} flex flex-col justify-center items-start text-left ${className}`} {...props}>
                 {icon && iconPosition === 'top' && (
                     <img src= {icon}/>
                 )}
-                <h3 className={`${titleClasses}`}>{title}</h3>
+                <h3 className={`${titleClasses} whitespace-pre-line`}>{title}</h3>
                 <p className={`${descriptionClasses} whitespace-pre-line`}>{description}</p>
                 {icon && iconPosition === 'bottom' && (
-                    <div className="self-end">{icon}</div>
+                    <button className="self-end cursor-pointer transform hover:scale-105" onClick={onButtonClick}>
+                        <img src= {icon} className="hover:border-2 hover:border-state-hover-primary"/>
+                    </button>
+                    
                 )}
             </div>
         )

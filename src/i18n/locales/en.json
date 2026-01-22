@@ -1,11 +1,27 @@
 {
-    "header": {
-        "nav-items": {
-            "menu-item-1": "SERVICES",
-            "menu-item-2": "PORTFOLIO",
-            "menu-item-3": "ABOUT US",
-            "menu-item-4": "CONTACT"
-        }
+    "navigation": {
+        "nav-items": [
+            {
+                "label": "SERVICES",
+                "href": "/services",
+                "enabled": false
+            },
+            {
+                "label": "PROJECTS",
+                "href": "/projects",
+                "enabled": false
+            },
+            {
+                "label": "ABOUT US",
+                "href": "/about",
+                "enabled": false
+            },
+            {
+                "label": "CONTACT",
+                "href": "/contact",
+                "enabled": true
+            }
+        ]
     },
     "hero": {
         "title": "without the hassle.",
@@ -31,6 +47,41 @@
         ]
     },
     "services": {
+        "label": "SERVICES",
+        "title": "Everything *your brand* needs,\nin one place.",
+        "subtitle": "From idea to execution.\nWe design, write, develop, and launch projects that look good, work smoothly, and connect with the right audience.\nWe work with you so every part of your brand makes sense, feels cohesive, and is strategically aligned.",
+        "cards": [
+            {
+                "title": "Graphic Design",
+                "description": "We create visual pieces that elevate your brand and express its personality, from social media assets to full campaigns.",
+                "href": "/services/graphic-design"
+            },
+            {
+                "title": "Branding",
+                "description": "It’s not just a logo. It’s how people see you, what you convey, and what they remember about you. We help you build a brand with a strong, authentic identity.",
+                "href": "/services/branding"
+            },
+            {
+                "title": "Web Development",
+                "description": "We design and build responsive, fast websites aligned with your purpose. Made to look amazing and work flawlessly.",
+                "href": "/services/web-design"
+            },
+            {
+                "title": "Digital Strategy",
+                "description": "Every action needs a reason. Together, we build a clear strategy to guide your brand, campaigns, or launches.",
+                "href": "/services/digital-strategy"
+            },
+            {
+                "title": "Copywriting",
+                "description": "Words that sound like you, but sell like no one else. Websites, social media, ads, and everything a strong (and consistent) voice needs.",
+                "href": "/services/copywriting"
+            },
+            {
+                "title": "Photography",
+                "description": "Authentic, professional visual content. Product shoots, portraits, and lifestyle sessions that showcase the best of your brand.",
+                "href": "/services/photography"
+            }
+        ],
         "rotating": [
             "Graphic Design",
             "Branding",
@@ -39,5 +90,46 @@
             "Copywriting",
             "Photography"
         ]
+    },
+    "about": {
+        "title": "Your creative, strategic team\n— no nonsense.",
+        "subtitle": "We are a creative studio that brings together design, development, marketing, and content to help brands grow with clarity, coherence, and purpose. With over 15 years of combined experience, we work from a holistic approach that goes beyond visuals: we understand what your project needs, how to communicate it, and how to make it work.\n\nAt No Problem Digital, we believe in working closely with you, with transparency and aligned to your goals. No empty formulas or unnecessary jargon — we turn ideas into real results, without complications."
+    },
+    "projects": {
+        "label": "PROJECTS",
+        "title": "Projects *with purpose*,\ndesign with intention.",
+        "subtitle": "Every project you see here was built with strategy, thoughtful design, and carefully crafted execution.\nWe work with brands that want to stand out, communicate clearly, and connect with their audience in an authentic way.\nFrom branding to web development, including campaigns, content, and photography, our mission is always the same:\nto turn ideas into visual and functional results that help our clients grow.",
+        "images": [
+            {
+                "id": 1,
+                "image": "src/assets/images/projects/project1.jpg"
+            },
+            {
+                "id": 2,
+                "image": "src/assets/images/projects/project2.jpg"
+            },
+            {
+                "id": 3,
+                "image": "/images/projects/project3.jpg"
+            },
+            {
+                "id": 4,
+                "image": "src/assets/images/projects/project4.jpg"
+            },
+            {
+                "id": 5,
+                "image": "src/assets/images/projects/project5.png"
+            },
+            {
+                "id": 6,
+                "image": "src/assets/images/projects/project6.jpg"
+            }
+        ],
+        "button-text": "See our projects"
+    },
+    "cta": {
+        "title": "*Your brand* doesn’t have\nto do it alone.",
+        "subtitle": "A brand with intention starts with a good conversation.",
+        "button-text": "Let’s start your project"
     }
 }
