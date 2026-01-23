@@ -12,5 +12,10 @@ export const useSectionContent = (section) => {
         // Valores traducidos para uso directo
         buttonText: t(`${section}.button-text`),
         cards: t(`${section}.cards`, { returnObjects: true }),
+        words: t(`${section}.rotating`, { returnObjects: true }),
+        form: t(`${section}.form`, { returnObjects: true }),
+        dropdown: t(`${section}.dropdown`, { returnObjects: true }),
+        checkbox: t(`${section}.checkbox`),
+
     }
 }

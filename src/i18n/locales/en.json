@@ -128,8 +128,49 @@
         "button-text": "See our projects"
     },
     "cta": {
-        "title": "*Your brand* doesn’t have\nto do it alone.",
+        "title": "*Your brand* doesn't have\nto do it alone.",
         "subtitle": "A brand with intention starts with a good conversation.",
-        "button-text": "Let’s start your project"
+        "button-text": "Let's start your project"
+    },
+    "contact": {
+        "title": "Let's start something\n*with intention*.",
+        "subtitle": "We don't believe in endless forms or messages that disappear into the void. Tell us what you have in mind and we'll see if we're a good fit. If we vibe, we build it together. No complications.",
+        "button-text": "Let's talk",
+        "checkbox": "I agree to the terms of use and privacy policy.",
+        "form": [
+            {
+                "label": "Name",
+                "placeholder": "Write your name",
+                "name": "name",
+                "type": "text",
+                "required": true
+            },
+            {
+                "label": "Email",
+                "placeholder": "Write your email",
+                "name": "email",
+                "type": "email",
+                "required": true
+            },
+            {
+                "label": "Message",
+                "placeholder": "Briefly tell us what you need or what you’d like to improve.",
+                "name": "message",
+                "type": "textarea",
+                "required": true
+            }
+        ],
+        "dropdown":{
+            "label": "Select the type of project",
+            "options": [
+                "Graphic Design",
+                "Branding",
+                "Web Development",
+                "Digital Strategy",
+                "Copywriting",
+                "Photography",
+                "I'm not sure yet"
+            ]
+        }
     }
 }
