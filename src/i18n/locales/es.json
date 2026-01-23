@@ -1,10 +1,26 @@
 {
     "navigation": {
         "nav-items": [
-            { "label": "SERVICIOS", "href": "/servicios", "enabled": false },
-            { "label": "PROYECTOS", "href": "/proyectos", "enabled": false },
-            { "label": "NOSOTROS", "href": "/nosotros", "enabled": false },
-            { "label": "CONTACTO", "href": "/contacto", "enabled": true }
+            {
+                "label": "SERVICIOS",
+                "href": "/servicios",
+                "enabled": false
+            },
+            {
+                "label": "PROYECTOS",
+                "href": "/proyectos",
+                "enabled": false
+            },
+            {
+                "label": "NOSOTROS",
+                "href": "/nosotros",
+                "enabled": false
+            },
+            {
+                "label": "CONTACTO",
+                "href": "/contacto",
+                "enabled": true
+            }
         ]
     },
     "hero": {
@@ -85,9 +101,50 @@
         "subtitle": "Cada proyecto que ves aquí fue creado con estrategia, diseño y una ejecución pensada al detalle.\n Trabajamos con marcas que quieren destacar, comunicar con claridad y conectar con su audiencia de forma auténtica.\nDesde branding hasta desarrollo web, pasando por campañas, contenido y fotografía, nuestra misión siempre es la misma:\ntransformar ideas en resultados visuales y funcionales que impulsan a nuestros clientes a crecer.",
         "button-text": "Ver nuestros proyectos"
     },
-    "cta":{
+    "cta": {
         "title": "*Tu marca* no tiene\nque hacerlo todo sola.",
         "subtitle": "Una marca con intención empieza con una buena conversación.",
         "button-text": "Empiecemos con tu proyecto"
+    },
+    "contact": {
+        "title": "Empecemos algo\ncon *intención*.",
+        "subtitle": "No creemos en formularios eternos ni en mensajes que caen en el vacío. Cuéntanos qué tienes en mente y vemos si encajamos. Si vibramos, lo construimos juntos. Sin complicaciones.",
+        "button-text": "Hablemos",
+        "checkbox": "Estoy de acuerdo con los términos de uso y política de privacidad.",
+        "form": [
+            {
+                "label": "Nombre",
+                "placeholder": "Escribe tu nombre",
+                "name": "name",
+                "type": "text",
+                "required": true
+            },
+            {
+                "label": "Email",
+                "placeholder": "Escribe tu email",
+                "name": "email",
+                "type": "email",
+                "required": true
+            },
+            {
+                "label": "Mensaje",
+                "placeholder": "Cuéntanos brevemente qué necesitas o qué te gustaría mejorar.",
+                "name": "message",
+                "type": "textarea",
+                "required": true
+            }
+        ],
+        "dropdown":{
+            "label": "Selecciona el tipo de proyecto",
+            "options": [
+                "Diseño Gráfico",
+                "Branding",
+                "Desarrollo Web",
+                "Estrategia Digital",
+                "Copywriting",
+                "Fotografía",
+                "Aun no lo tengo claro"
+            ]
+        }
     }
 }
