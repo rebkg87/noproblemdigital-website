@@ -45,6 +45,11 @@ const alignmentClasses = {
     right: "items-end text-right justify-end"
 }
 
+const directionClasses = {
+    col: "flex-col",
+    row: "flex-row"
+}
+
 const renderTextWithHighlight = (text, highlightClass) => {
     if (!text || !text.includes('*')) return text;
 
@@ -64,6 +69,7 @@ export const TextSection = ({
     highlightKey = null,
     isAnimated = false,
     alignment = "center",
+    direction = "col",
     variant = "hero",
     subtitleClassName = "",
     contentClassName = "",
@@ -76,6 +82,7 @@ export const TextSection = ({
     const highlight = highlightKey ? t(highlightKey) : null;
     const colors = variants[variant];
     const align = alignmentClasses[alignment];
+    const dir = directionClasses[direction];
 
     return (
         <div className={`flex flex-col ${align} w-auto h-auto ${label ? 'gap-10' : ''} ${className}`}>
@@ -84,7 +91,7 @@ export const TextSection = ({
                     {label}
                 </span>
             )}
-            <div className={`flex flex-col ${align} ${contentClassName}`}>
+            <div className={`flex ${dir} ${align} ${contentClassName}`}>
                 <h1 className={`font-h1 text-size-h1 leading-line-h1 font-primary whitespace-pre-line ${colors.title}`}>
                     {isAnimated ? (
                         <div className={`relative inline-flex h-30 justify-center items-center ${colors.highlight}`}>
