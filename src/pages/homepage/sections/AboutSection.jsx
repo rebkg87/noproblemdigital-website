@@ -1,5 +1,4 @@
 import { TextSection } from "../../../componets/ui/TextSection";
-import { useTranslation } from "react-i18next";
 import AboutImage from '../../../assets/images/placeholderimage.png'
 import { useSectionContent } from "../../../hooks/useSectionContent";
 

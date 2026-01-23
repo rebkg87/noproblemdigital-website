@@ -1,4 +1,3 @@
-import { useTranslation } from "react-i18next"
 import { TextSection } from "../../../componets/ui/TextSection";
 import { ProjectsGallery } from "../../../componets/ui/ProjectsGallery";
 import { Button } from "../../../componets/ui/Button";

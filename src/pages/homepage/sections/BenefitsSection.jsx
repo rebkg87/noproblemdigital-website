@@ -1,4 +1,3 @@
-import { useTranslation } from "react-i18next";
 import { TextSection } from "../../../componets/ui/TextSection"
 import { Card } from "../../../componets/ui/Card";
 import TickIcon from '../../../assets/icons/tick.svg'

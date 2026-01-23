@@ -1,4 +1,3 @@
-import { useTranslation } from "react-i18next"
 import { TextSection } from "../../../componets/ui/TextSection"
 import { Button } from "../../../componets/ui/Button"
 import bgCTA from '../../../assets/images/bg-cta.png'

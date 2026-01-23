@@ -1,4 +1,3 @@
-import { useTranslation } from "react-i18next";
 import { TextSection } from "../../../componets/ui/TextSection";
 import { Card } from "../../../componets/ui/Card";
 import ArrowUpIcon from '../../../assets/icons/arrow_up.svg'
