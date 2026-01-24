@@ -16,6 +16,7 @@ export const useSectionContent = (section) => {
         form: t(`${section}.form`, { returnObjects: true }),
         dropdown: t(`${section}.dropdown`, { returnObjects: true }),
         checkbox: t(`${section}.checkbox`),
-
+        validation: t(`${section}.validation`, { returnObjects: true }),
+        status: t(`${section}.status`, { returnObjects: true }),
     }
 }

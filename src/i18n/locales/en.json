@@ -171,6 +171,19 @@
                 "Photography",
                 "I'm not sure yet"
             ]
+        },
+        "validation": {
+            "nameRequired": "Name is required",
+            "emailRequired": "Email is required",
+            "emailInvalid": "Email is not valid",
+            "messageRequired": "Message is required",
+            "projectRequired": "Select a project type",
+            "checkboxRequired": "You must accept the terms"
+        },
+        "status": {
+            "sending": "Here we go...",
+            "success": "Message sent! We'll contact you soon.",
+            "error": "There was an error. Please try again."
         }
     }
 }
