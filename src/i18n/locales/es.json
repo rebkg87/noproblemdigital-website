@@ -134,7 +134,7 @@
                 "required": true
             }
         ],
-        "dropdown":{
+        "dropdown": {
             "label": "Selecciona el tipo de proyecto",
             "options": [
                 "Diseño Gráfico",
@@ -145,6 +145,19 @@
                 "Fotografía",
                 "Aun no lo tengo claro"
             ]
+        },
+        "validation": {
+            "nameRequired": "El nombre es obligatorio",
+            "emailRequired": "El email es obligatorio",
+            "emailInvalid": "El email no es válido",
+            "messageRequired": "El mensaje es obligatorio",
+            "projectRequired": "Selecciona un tipo de proyecto",
+            "checkboxRequired": "Debes aceptar los términos"
+        },
+        "status": {
+            "sending": "Aquí vamos...",
+            "success": "¡Mensaje enviado! Te contactaremos pronto.",
+            "error": "Hubo un error. Por favor intenta de nuevo."
         }
     }
 }
