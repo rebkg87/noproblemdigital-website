@@ -9,7 +9,7 @@
             {
                 "label": "PROJECTS",
                 "href": "/projects",
-                "enabled": false
+                "enabled": true
             },
             {
                 "label": "ABOUT US",

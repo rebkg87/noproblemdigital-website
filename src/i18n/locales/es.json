@@ -9,7 +9,7 @@
             {
                 "label": "PROYECTOS",
                 "href": "/proyectos",
-                "enabled": false
+                "enabled": true
             },
             {
                 "label": "NOSOTROS",
@@ -159,5 +159,98 @@
             "success": "¡Mensaje enviado! Te contactaremos pronto.",
             "error": "Hubo un error. Por favor intenta de nuevo."
         }
+    },
+    "portfolio": {
+        "title": "Trabajo *real*.\nResultados\nque *se sienten*.",
+        "subtitle": "Aquí no hay trabajos “bonitos porque sí”. Cada proyecto responde a una estrategia, a un objetivo claro y a una forma de trabajar cercana y colaborativa. Desde la identidad hasta la web, todo lo que ves aquí está pensado para durar, escalar y funcionar en el mundo real.\n\nExplora nuestro portafolio y descubre cómo ayudamos a marcas a crecer con diseño, estrategia y contenido que conecta de verdad.",
+        "dropdown": {
+            "label": "Filtrar por tipo de proyecto",
+            "options": [
+                "Todos",
+                "Branding",
+                "Copywriting",
+                "Desarrollo Web",
+                "Diseño Gráfico",
+                "Estrategia Digital",
+                "Fotografía"
+            ]
+        },
+        "projects": [
+            {
+                "id": "penta-c",
+                "title": "Penta-C",
+                "description": "Proyecto europeo centrado en el impulso de comunidades energéticas sostenibles, combinando innovación tecnológica, participación ciudadana y nuevos modelos de gobernanza. Desarrollamos la identidad visual y los materiales gráficos del proyecto, incluyendo el diseño del logotipo y piezas de comunicación para entornos digitales e impresos, enfocados en crear un sistema visual claro y coherente, alineado con los valores de sostenibilidad, innovación y colaboración que definen PENTA-C.",
+                "tags": [
+                    "Branding",
+                    "Diseño Gráfico"
+                ],
+                "cover": "src/assets/images/projects/pentaC_cover.png",
+                "gallery": [
+                    "src/assets/images/projects/penta-c/1.png",
+                    "src/assets/images/projects/penta-c/2.png",
+                    "src/assets/images/projects/penta-c/3.png",
+                    "src/assets/images/projects/penta-c/4.png",
+                    "src/assets/images/projects/penta-c/5.png",
+                    "src/assets/images/projects/penta-c/6.png",
+                    "src/assets/images/projects/penta-c/7.png",
+                    "src/assets/images/projects/penta-c/8.png",
+                    "src/assets/images/projects/penta-c/9.png",
+                    "src/assets/images/projects/penta-c/10.png",
+                    "src/assets/images/projects/penta-c/11.png",
+                    "src/assets/images/projects/penta-c/12.png",
+                    "src/assets/images/projects/penta-c/13.png",
+                    "src/assets/images/projects/penta-c/14.png",
+                    "src/assets/images/projects/penta-c/15.png",
+                    "src/assets/images/projects/penta-c/16.png"
+                ]
+            },
+            {
+                "id": "nissan",
+                "title": "Playbook Nissan México",
+                "description": "Diseño y diagramación editorial de un playbook estratégico desarrollado para Nissan y su red de distribuidores, enfocado en la gestión integral del talento humano, transformando un contenido técnico, extenso y altamente estructurado en una pieza clara, usable y visualmente coherente con la marca Nissan, manteniendo la jerarquía de la información y facilitando su lectura y aplicación en contextos reales de negocio.",
+                "tags": [
+                    "Diseño Gráfico"
+                ],
+                "cover": "src/assets/images/projects/nissan/nissan1.jpg",
+                "gallery": [
+                    "src/assets/images/projects/nissan/nissan1.jpg",
+                    "src/assets/images/projects/nissan/nissan2.jpg",
+                    "src/assets/images/projects/nissan/nissan3.jpg",
+                    "src/assets/images/projects/nissan/nissan4.jpg",
+                    "src/assets/images/projects/nissan/nissan5.jpg"
+                ]
+            },
+            {
+                "id": "peterjamsSeafood",
+                "title": "Peterjam's Seafood",
+                "description": "Marca de productos del mar empacados al vacío, enfocada en ofrecer frescura, calidad y confianza a través de una propuesta visual clara y reconocible. Desarrollamos la identidad gráfica completa de la marca, incluyendo el sistema visual, papelería corporativa y el diseño de etiquetas para empaques, cuidando la legibilidad, jerarquía de información y coherencia en el punto de venta. Además, apoyamos el proyecto con piezas de copy para reforzar el tono de marca y su propuesta de valor.",
+                "tags": [
+                    "Diseño Gráfico" , "Copywriting"
+                ],
+                "cover": "src/assets/images/projects/peterjamsSeafood/peterjam_tarjetas.jpg",
+                "gallery": [
+                    "src/assets/images/projects/peterjamsSeafood/peterjam_tarjetas.jpg",
+                    "src/assets/images/projects/peterjamsSeafood/peterjam_sticker.webp",
+                    "src/assets/images/projects/peterjamsSeafood/peterjam_1.jpg",
+                    "src/assets/images/projects/peterjamsSeafood/peterjam_2.jpg",
+                    "src/assets/images/projects/peterjamsSeafood/peterjam_3.jpg"
+                ]
+            },
+            {
+                "id": "revista-violencia",
+                "title": "Violencia de Género\ny Alerta de Violencia de Género contra las Mujeres",
+                "description": "Proyecto editorial de divulgación y concienciación social enfocado en informar, prevenir y visibilizar la violencia de género en México, así como en difundir los mecanismos de protección y denuncia disponibles para las mujeres. Desarrollamos el diseño gráfico y la diagramación de la revista, creando un sistema visual claro, accesible y didáctico que facilitara la comprensión de información compleja y sensible.",
+                "tags": [
+                    "Diseño Gráfico" , "Diseño Editorial"
+                ],
+                "cover": "src/assets/images/projects/project4.webp",
+                "gallery": [
+                    "src/assets/images/projects/revista/revista_1.webp",
+                    "src/assets/images/projects/revista/revista_2.webp",
+                    "src/assets/images/projects/revista/revista_3.webp",
+                    "src/assets/images/projects/revista/revista_4.webp"
+                ]
+            }
+        ]
     }
 }

@@ -18,5 +18,6 @@ export const useSectionContent = (section) => {
         checkbox: t(`${section}.checkbox`),
         validation: t(`${section}.validation`, { returnObjects: true }),
         status: t(`${section}.status`, { returnObjects: true }),
+        projects: t(`${section}.projects`, { returnObjects: true }),
     }
 }
