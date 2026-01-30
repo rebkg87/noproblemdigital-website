@@ -250,6 +250,25 @@
                     "src/assets/images/projects/revista/revista_3.webp",
                     "src/assets/images/projects/revista/revista_4.webp"
                 ]
+            },
+            {
+                "id": "colegio-reims",
+                "title": "Colegio Reims",
+                "description": "Institución educativa para la que actuamos como agencia creativa integral durante dos años, acompañando la evolución y consolidación de su marca en entornos digitales y presenciales.\n\nDesarrollamos la estrategia de marca, campañas creativas y línea de comunicación, definiendo el tono, los mensajes clave y el enfoque visual. Ejecutamos soluciones gráficas para redes sociales, campañas publicitarias, Ads, desarrollo web, material POP y espectaculares, además de la creación de copys alineados con los valores y objetivos del colegio. El trabajo estuvo orientado a fortalecer la conexión emocional con la comunidad educativa, mejorar el engagement y reforzar la recordación de marca en todos los puntos de contacto.",
+                "tags": [
+                    "Diseño Gráfico" , "Diseño Editorial" , "Copywriting" , "Desarrollo Web" , "Estrategia Digital"
+                ],
+                "cover": "src/assets/images/projects/reims/reims1.jpg",
+                "gallery": [
+                    "src/assets/images/projects/reims/reims1.jpg",
+                    "src/assets/images/projects/reims/reims2.jpg",
+                    "src/assets/images/projects/reims/reims3.jpg",
+                    "src/assets/images/projects/reims/reims4.jpg",
+                    "src/assets/images/projects/reims/reims5.jpg",
+                    "src/assets/images/projects/reims/reims6.jpg",
+                    "src/assets/images/projects/reims/reims7.jpg",
+                    "src/assets/images/projects/reims/reims8.jpg"
+                ]
             }
         ]
     }

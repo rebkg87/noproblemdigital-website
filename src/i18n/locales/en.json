@@ -3,22 +3,22 @@
         "nav-items": [
             {
                 "label": "SERVICES",
-                "href": "/services",
+                "href": "/servicios",
                 "enabled": false
             },
             {
                 "label": "PROJECTS",
-                "href": "/projects",
+                "href": "/proyectos",
                 "enabled": true
             },
             {
                 "label": "ABOUT US",
-                "href": "/about",
+                "href": "/nosotros",
                 "enabled": false
             },
             {
                 "label": "CONTACT",
-                "href": "/contact",
+                "href": "/contacto",
                 "enabled": true
             }
         ]
@@ -160,7 +160,7 @@
                 "required": true
             }
         ],
-        "dropdown":{
+        "dropdown": {
             "label": "Select the type of project",
             "options": [
                 "Graphic Design",
@@ -185,5 +185,123 @@
             "success": "Message sent! We'll contact you soon.",
             "error": "There was an error. Please try again."
         }
+    },
+    "portfolio": {
+        "title": "Real *work*.\nResults\nyou can *feel*.",
+        "subtitle": "There’s no “pretty just because” work here. Every project responds to a strategy, a clear objective, and a close, collaborative way of working. From identity to web, everything you see here is designed to last, scale, and work in the real world.\n\nExplore our portfolio and discover how we help brands grow through design, strategy, and content that truly connects.",
+        "dropdown": {
+            "label": "Filter by project type",
+            "options": [
+                "All",
+                "Branding",
+                "Copywriting",
+                "Web Development",
+                "Graphic Design",
+                "Digital Strategy",
+                "Photography"
+            ]
+        },
+        "projects": [
+            {
+                "id": "penta-c",
+                "title": "Penta-C",
+                "description": "A European project focused on fostering sustainable energy communities by combining technological innovation, citizen participation, and new governance models. We developed the project’s visual identity and graphic materials, including logo design and communication assets for both digital and print environments, creating a clear and cohesive visual system aligned with the values of sustainability, innovation, and collaboration that define PENTA-C.",
+                "tags": [
+                    "Branding",
+                    "Graphic Design"
+                ],
+                "cover": "src/assets/images/projects/pentaC_cover.png",
+                "gallery": [
+                    "src/assets/images/projects/penta-c/1.png",
+                    "src/assets/images/projects/penta-c/2.png",
+                    "src/assets/images/projects/penta-c/3.png",
+                    "src/assets/images/projects/penta-c/4.png",
+                    "src/assets/images/projects/penta-c/5.png",
+                    "src/assets/images/projects/penta-c/6.png",
+                    "src/assets/images/projects/penta-c/7.png",
+                    "src/assets/images/projects/penta-c/8.png",
+                    "src/assets/images/projects/penta-c/9.png",
+                    "src/assets/images/projects/penta-c/10.png",
+                    "src/assets/images/projects/penta-c/11.png",
+                    "src/assets/images/projects/penta-c/12.png",
+                    "src/assets/images/projects/penta-c/13.png",
+                    "src/assets/images/projects/penta-c/14.png",
+                    "src/assets/images/projects/penta-c/15.png",
+                    "src/assets/images/projects/penta-c/16.png"
+                ]
+            },
+            {
+                "id": "nissan",
+                "title": "Nissan Mexico Playbook",
+                "description": "Editorial design and layout of a strategic playbook developed for Nissan and its dealer network, focused on comprehensive human talent management. We transformed highly technical, extensive, and structured content into a clear, usable piece that remained visually consistent with the Nissan brand, preserving information hierarchy and making it easier to read and apply in real business contexts.",
+                "tags": [
+                    "Graphic Design"
+                ],
+                "cover": "src/assets/images/projects/nissan/nissan1.jpg",
+                "gallery": [
+                    "src/assets/images/projects/nissan/nissan1.jpg",
+                    "src/assets/images/projects/nissan/nissan2.jpg",
+                    "src/assets/images/projects/nissan/nissan3.jpg",
+                    "src/assets/images/projects/nissan/nissan4.jpg",
+                    "src/assets/images/projects/nissan/nissan5.jpg"
+                ]
+            },
+            {
+                "id": "peterjamsSeafood",
+                "title": "Peterjam’s Seafood",
+                "description": "A vacuum-sealed seafood brand focused on offering freshness, quality, and trust through a clear and recognizable visual proposal. We developed the brand’s complete graphic identity, including the visual system, corporate stationery, and packaging label design, paying close attention to readability, information hierarchy, and point-of-sale coherence. We also supported the project with copywriting pieces to reinforce the brand tone and value proposition.",
+                "tags": [
+                    "Graphic Design",
+                    "Copywriting"
+                ],
+                "cover": "src/assets/images/projects/peterjamsSeafood/peterjam_tarjetas.jpg",
+                "gallery": [
+                    "src/assets/images/projects/peterjamsSeafood/peterjam_tarjetas.jpg",
+                    "src/assets/images/projects/peterjamsSeafood/peterjam_sticker.webp",
+                    "src/assets/images/projects/peterjamsSeafood/peterjam_1.jpg",
+                    "src/assets/images/projects/peterjamsSeafood/peterjam_2.jpg",
+                    "src/assets/images/projects/peterjamsSeafood/peterjam_3.jpg"
+                ]
+            },
+            {
+                "id": "revista-violencia",
+                "title": "Gender Violence\nand Gender Violence Alert Against Women",
+                "description": "An editorial project focused on awareness, prevention, and social education around gender-based violence in Mexico, as well as the dissemination of protection and reporting mechanisms available to women. We developed the graphic design and layout of the magazine, creating a clear, accessible, and educational visual system that facilitated the understanding of complex and sensitive information.",
+                "tags": [
+                    "Graphic Design",
+                    "Editorial Design"
+                ],
+                "cover": "src/assets/images/projects/project4.webp",
+                "gallery": [
+                    "src/assets/images/projects/revista/revista_1.webp",
+                    "src/assets/images/projects/revista/revista_2.webp",
+                    "src/assets/images/projects/revista/revista_3.webp",
+                    "src/assets/images/projects/revista/revista_4.webp"
+                ]
+            },
+            {
+                "id": "colegio-reims",
+                "title": "Colegio Reims",
+                "description": "An educational institution for which we acted as a full creative agency for two years, supporting the evolution and consolidation of its brand across digital and physical environments.\n\nWe developed the brand strategy, creative campaigns, and communication framework, defining tone, key messages, and visual direction. We delivered graphic solutions for social media, advertising campaigns, ads, web development, POP materials, and large-format displays, as well as copywriting aligned with the school’s values and objectives. The work focused on strengthening emotional connection with the educational community, improving engagement, and reinforcing brand recall across all touchpoints.",
+                "tags": [
+                    "Graphic Design",
+                    "Editorial Design",
+                    "Copywriting",
+                    "Web Development",
+                    "Digital Strategy"
+                ],
+                "cover": "src/assets/images/projects/reims/reims1.jpg",
+                "gallery": [
+                    "src/assets/images/projects/reims/reims1.jpg",
+                    "src/assets/images/projects/reims/reims2.jpg",
+                    "src/assets/images/projects/reims/reims3.jpg",
+                    "src/assets/images/projects/reims/reims4.jpg",
+                    "src/assets/images/projects/reims/reims5.jpg",
+                    "src/assets/images/projects/reims/reims6.jpg",
+                    "src/assets/images/projects/reims/reims7.jpg",
+                    "src/assets/images/projects/reims/reims8.jpg"
+                ]
+            }
+        ]
     }
 }
