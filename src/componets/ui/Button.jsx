@@ -7,7 +7,7 @@ const variants = {
 
 const sizes = {
     sm: 'px-4 py-2 text-size-s1',
-    md: 'px-9.25 py-3.5 w-47.5 font-secondary text-size-l1 w-auto',
+    md: 'w-full md:w-auto md:px-9.25 py-3.5 w-47.5 font-secondary text-size-l1 w-auto',
     lg: 'px-12 py-4 text-size-l2',
 }
 

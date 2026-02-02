@@ -30,6 +30,7 @@ export const Card = ({
     titleTextSize = 'sm',
     descriptionTextSize = 'md',
     onButtonClick = null,
+    disabled = false,
     className = '',
     ...props }) => {
 
@@ -56,8 +57,12 @@ export const Card = ({
                 )}
                 <p className={`${descriptionClasses} whitespace-pre-line`}>{description}</p>
                 {icon && iconPosition === 'bottom' && (
-                    <button className="self-end cursor-pointer transform hover:scale-105" onClick={onButtonClick}>
-                        <img src= {icon} className="hover:border-2 hover:border-state-hover-primary"/>
+                    <button
+                        className={`self-end transform ${disabled ? 'cursor-not-allowed opacity-70' : 'cursor-pointer hover:scale-105'}`}
+                        onClick={disabled ? undefined : onButtonClick}
+                        disabled={disabled}
+                    >
+                        <img src= {icon} className={disabled ? '' : 'hover:border-2 hover:border-state-hover-primary'}/>
                     </button>
 
                 )}

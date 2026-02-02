@@ -15,7 +15,7 @@ export const ProjectCard = ({ title, description, tags, cover, gallery = [], alt
                     <img
                         src={cover}
                         alt={alt || title}
-                        className="object-cover rounded-[10px] h-auto w-[500px] cursor-pointer hover:opacity-90 transition-opacity"
+                        className="object-cover rounded-[10px] h-auto w-125 cursor-pointer hover:opacity-90 transition-opacity"
                         onClick={() => setIsOpen(true)}
                     />
                     <Card

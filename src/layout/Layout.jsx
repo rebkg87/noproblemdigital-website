@@ -20,7 +20,7 @@ export const Layout = () => {
 
     return (
         <div>
-            <header className="fixed top-0 w-full z-50 flex justify-center pt-16.75">
+            <header className="fixed top-0 w-full z-50 flex justify-center pt-5 md:pt-16.75 px-2.5 md:px-0">
                 <Header/>
             </header>
             <main>

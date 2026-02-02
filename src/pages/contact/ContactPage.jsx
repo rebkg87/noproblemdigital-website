@@ -11,7 +11,7 @@ export const ContactPage = () => {
 
     return (
         <section className="bg-cover" style={{ backgroundImage: `url(${bgContact})` }}>
-            <div className="px-31.25 pb-24 pt-58.5 flex flex-col items-center justify-center gap-15">
+            <div className="px-2.5 md:px-31.25 pb-24 pt-58.5 flex flex-col items-center justify-center gap-15">
                 <TextSection titleKey={content.title} subtitleKey={content.subtitle} variant='dark' direction="row" alignment="left" subtitleClassName="max-w-130.75" contentClassName="gap-8.75 !items-center" />
                 <div className="flex flex-col md:flex-row items-center justify-center gap-12.5 p-10 bg-white rounded-[50px]">
                     <img src={ContactImage} alt="Team" className="object-contain" />
