@@ -54,7 +54,7 @@ export const Form = ({ content }) => {
 
     return (
         <form onSubmit={handleSubmit(onSubmit)} noValidate>
-            <div className="flex flex-col w-auto gap-3.5 bg-white px-16.5 py-16 rounded-[20px] shadow-soft">
+            <div className="flex flex-col w-auto gap-3.5 bg-white px-10 py-10 md:px-16.5 md:py-16 rounded-[20px] shadow-soft">
                 <div className="flex flex-col w-auto gap-2.5">
                     {content.form.map((field, index) => (
                         field.type === "textarea" ? (
