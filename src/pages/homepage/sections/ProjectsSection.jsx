@@ -9,7 +9,7 @@ export const ProjectsSection = () => {
     const navigate = useNavigate();
 
     return (
-        <section className="bg-brand-primary w-full h-auto px-24 py-31.25 flex flex-col items-center justify-center gap-21.5">
+        <section className="bg-brand-primary w-full h-auto px-2.5 md:px-24 py-10 md:py-28.75 flex flex-col items-center justify-center gap-5 md:gap-21.5">
             <TextSection labelKey={content.label} titleKey={content.title} subtitleKey={content.subtitle} variant="dark" contentClassName="gap-5"/>
             <ProjectsGallery/>
             <Button variant="primary" size="md" onClick={() => navigate('/proyectos')}>{content.buttonText}</Button>

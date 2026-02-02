@@ -54,32 +54,38 @@
             {
                 "title": "Graphic Design",
                 "description": "We create visual pieces that elevate your brand and express its personality, from social media assets to full campaigns.",
-                "href": "/services/graphic-design"
+                "href": "/services/graphic-design",
+                "enabled": false
             },
             {
                 "title": "Branding",
-                "description": "It’s not just a logo. It’s how people see you, what you convey, and what they remember about you. We help you build a brand with a strong, authentic identity.",
-                "href": "/services/branding"
+                "description": "It's not just a logo. It's how people see you, what you convey, and what they remember about you. We help you build a brand with a strong, authentic identity.",
+                "href": "/services/branding",
+                "enabled": false
             },
             {
                 "title": "Web Development",
                 "description": "We design and build responsive, fast websites aligned with your purpose. Made to look amazing and work flawlessly.",
-                "href": "/services/web-design"
+                "href": "/services/web-design",
+                "enabled": false
             },
             {
                 "title": "Digital Strategy",
                 "description": "Every action needs a reason. Together, we build a clear strategy to guide your brand, campaigns, or launches.",
-                "href": "/services/digital-strategy"
+                "href": "/services/digital-strategy",
+                "enabled": false
             },
             {
                 "title": "Copywriting",
                 "description": "Words that sound like you, but sell like no one else. Websites, social media, ads, and everything a strong (and consistent) voice needs.",
-                "href": "/services/copywriting"
+                "href": "/services/copywriting",
+                "enabled": false
             },
             {
                 "title": "Photography",
                 "description": "Authentic, professional visual content. Product shoots, portraits, and lifestyle sessions that showcase the best of your brand.",
-                "href": "/services/photography"
+                "href": "/services/photography",
+                "enabled": false
             }
         ],
         "rotating": [
@@ -102,11 +108,11 @@
         "images": [
             {
                 "id": 1,
-                "image": "src/assets/images/projects/project1.jpg"
+                "image": "/images/projects/project1.jpg"
             },
             {
                 "id": 2,
-                "image": "src/assets/images/projects/project2.jpg"
+                "image": "/images/projects/project2.jpg"
             },
             {
                 "id": 3,
@@ -114,15 +120,15 @@
             },
             {
                 "id": 4,
-                "image": "src/assets/images/projects/project4.jpg"
+                "image": "/images/projects/project4.jpg"
             },
             {
                 "id": 5,
-                "image": "src/assets/images/projects/project5.png"
+                "image": "/images/projects/project5.png"
             },
             {
                 "id": 6,
-                "image": "src/assets/images/projects/project6.jpg"
+                "image": "/images/projects/project6.jpg"
             }
         ],
         "button-text": "See our projects"
@@ -210,24 +216,24 @@
                     "Branding",
                     "Graphic Design"
                 ],
-                "cover": "src/assets/images/projects/pentaC_cover.png",
+                "cover": "/images/projects/pentaC_cover.png",
                 "gallery": [
-                    "src/assets/images/projects/penta-c/1.png",
-                    "src/assets/images/projects/penta-c/2.png",
-                    "src/assets/images/projects/penta-c/3.png",
-                    "src/assets/images/projects/penta-c/4.png",
-                    "src/assets/images/projects/penta-c/5.png",
-                    "src/assets/images/projects/penta-c/6.png",
-                    "src/assets/images/projects/penta-c/7.png",
-                    "src/assets/images/projects/penta-c/8.png",
-                    "src/assets/images/projects/penta-c/9.png",
-                    "src/assets/images/projects/penta-c/10.png",
-                    "src/assets/images/projects/penta-c/11.png",
-                    "src/assets/images/projects/penta-c/12.png",
-                    "src/assets/images/projects/penta-c/13.png",
-                    "src/assets/images/projects/penta-c/14.png",
-                    "src/assets/images/projects/penta-c/15.png",
-                    "src/assets/images/projects/penta-c/16.png"
+                    "/images/projects/penta-c/1.png",
+                    "/images/projects/penta-c/2.png",
+                    "/images/projects/penta-c/3.png",
+                    "/images/projects/penta-c/4.png",
+                    "/images/projects/penta-c/5.png",
+                    "/images/projects/penta-c/6.png",
+                    "/images/projects/penta-c/7.png",
+                    "/images/projects/penta-c/8.png",
+                    "/images/projects/penta-c/9.png",
+                    "/images/projects/penta-c/10.png",
+                    "/images/projects/penta-c/11.png",
+                    "/images/projects/penta-c/12.png",
+                    "/images/projects/penta-c/13.png",
+                    "/images/projects/penta-c/14.png",
+                    "/images/projects/penta-c/15.png",
+                    "/images/projects/penta-c/16.png"
                 ]
             },
             {
@@ -237,13 +243,13 @@
                 "tags": [
                     "Graphic Design"
                 ],
-                "cover": "src/assets/images/projects/nissan/nissan1.jpg",
+                "cover": "/images/projects/nissan/nissan1.jpg",
                 "gallery": [
-                    "src/assets/images/projects/nissan/nissan1.jpg",
-                    "src/assets/images/projects/nissan/nissan2.jpg",
-                    "src/assets/images/projects/nissan/nissan3.jpg",
-                    "src/assets/images/projects/nissan/nissan4.jpg",
-                    "src/assets/images/projects/nissan/nissan5.jpg"
+                    "/images/projects/nissan/nissan1.jpg",
+                    "/images/projects/nissan/nissan2.jpg",
+                    "/images/projects/nissan/nissan3.jpg",
+                    "/images/projects/nissan/nissan4.jpg",
+                    "/images/projects/nissan/nissan5.jpg"
                 ]
             },
             {
@@ -254,13 +260,13 @@
                     "Graphic Design",
                     "Copywriting"
                 ],
-                "cover": "src/assets/images/projects/peterjamsSeafood/peterjam_tarjetas.jpg",
+                "cover": "/images/projects/peterjamsSeafood/peterjam_tarjetas.jpg",
                 "gallery": [
-                    "src/assets/images/projects/peterjamsSeafood/peterjam_tarjetas.jpg",
-                    "src/assets/images/projects/peterjamsSeafood/peterjam_sticker.webp",
-                    "src/assets/images/projects/peterjamsSeafood/peterjam_1.jpg",
-                    "src/assets/images/projects/peterjamsSeafood/peterjam_2.jpg",
-                    "src/assets/images/projects/peterjamsSeafood/peterjam_3.jpg"
+                    "/images/projects/peterjamsSeafood/peterjam_tarjetas.jpg",
+                    "/images/projects/peterjamsSeafood/peterjam_sticker.webp",
+                    "/images/projects/peterjamsSeafood/peterjam_1.jpg",
+                    "/images/projects/peterjamsSeafood/peterjam_2.jpg",
+                    "/images/projects/peterjamsSeafood/peterjam_3.jpg"
                 ]
             },
             {
@@ -271,12 +277,12 @@
                     "Graphic Design",
                     "Editorial Design"
                 ],
-                "cover": "src/assets/images/projects/project4.webp",
+                "cover": "/images/projects/project4.webp",
                 "gallery": [
-                    "src/assets/images/projects/revista/revista_1.webp",
-                    "src/assets/images/projects/revista/revista_2.webp",
-                    "src/assets/images/projects/revista/revista_3.webp",
-                    "src/assets/images/projects/revista/revista_4.webp"
+                    "/images/projects/revista/revista_1.webp",
+                    "/images/projects/revista/revista_2.webp",
+                    "/images/projects/revista/revista_3.webp",
+                    "/images/projects/revista/revista_4.webp"
                 ]
             },
             {
@@ -290,16 +296,16 @@
                     "Web Development",
                     "Digital Strategy"
                 ],
-                "cover": "src/assets/images/projects/reims/reims1.jpg",
+                "cover": "/images/projects/reims/reims1.jpg",
                 "gallery": [
-                    "src/assets/images/projects/reims/reims1.jpg",
-                    "src/assets/images/projects/reims/reims2.jpg",
-                    "src/assets/images/projects/reims/reims3.jpg",
-                    "src/assets/images/projects/reims/reims4.jpg",
-                    "src/assets/images/projects/reims/reims5.jpg",
-                    "src/assets/images/projects/reims/reims6.jpg",
-                    "src/assets/images/projects/reims/reims7.jpg",
-                    "src/assets/images/projects/reims/reims8.jpg"
+                    "/images/projects/reims/reims1.jpg",
+                    "/images/projects/reims/reims2.jpg",
+                    "/images/projects/reims/reims3.jpg",
+                    "/images/projects/reims/reims4.jpg",
+                    "/images/projects/reims/reims5.jpg",
+                    "/images/projects/reims/reims6.jpg",
+                    "/images/projects/reims/reims7.jpg",
+                    "/images/projects/reims/reims8.jpg"
                 ]
             }
         ]

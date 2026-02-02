@@ -14,16 +14,16 @@ export const PortfolioPage = () => {
 
     return (
         <section>
-            <div className="px-31.25 pb-24 pt-58.5 flex flex-col items-center justify-center gap-15 bg-brand-primary ">
+            <div className="px-2.5 md:px-31.25 pb-24 pt-58.5 flex flex-col items-center justify-center gap-15 bg-brand-primary ">
                 <TextSection titleKey={content.title} subtitleKey={content.subtitle} variant='dark' direction="row" alignment="left" subtitleClassName="max-w-150" contentClassName="gap-8.75 !items-center" />
             </div>
-            <div className="bg-white px-[130px] py-[48px] flex flex-col gap-8 items-center justify-center">
+            <div className="bg-white px-2.5 md:px-32.5 py-12 flex flex-col gap-8 items-center justify-center">
                 <Dropdown
                     trigger={content.dropdown.label}
                     items={content.dropdown.options}
                     value={activeFilter}
                     onChange={setActiveFilter}
-                    className="w-[220px]"
+                    className="w-32.5"
                 />
                 {filteredProjects.map((project) => (
                     <ProjectCard

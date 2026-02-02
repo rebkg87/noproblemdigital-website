@@ -9,10 +9,10 @@ export const HomepageHeroSection = () => {
     const navigate = useNavigate()
     return (
         <section
-            className="bg-cover h-190"
+            className="bg-cover h-auto md:h-190"
             style={{ backgroundImage: `url(${bgHero})` }}
         >
-            <div className='pt-66 flex flex-col items-center justify-center gap-14.25'>
+            <div className='px-2.5 md:px-0 pt-45 flex flex-col items-center justify-center gap-10 md:gap-12 pb-25 md:pb-44'>
                 <TextSection isAnimated titleKey={content.title} subtitleKey={content.subtitle} variant='hero' contentClassName='gap-5' subtitleClassName='max-w-120'/>
                 <Button variant='primary' onClick={() => navigate('/contacto')}>{content.buttonText}</Button>
             </div>

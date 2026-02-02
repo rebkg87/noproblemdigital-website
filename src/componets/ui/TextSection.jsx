@@ -85,16 +85,16 @@ export const TextSection = ({
     const dir = directionClasses[direction];
 
     return (
-        <div className={`flex flex-col ${align} w-auto h-auto ${label ? 'gap-10' : ''} ${className}`}>
+        <div className={`flex flex-col ${align} p-10 md:w-auto h-auto ${label ? 'gap-10' : ''} ${className}`}>
             {label && (
                 <span className={`font-primary text-size-h3 font-h3 leading-line-h3 uppercase tracking-[0.23em] ${colors.label}`}>
                     {label}
                 </span>
             )}
             <div className={`flex ${dir} ${align} ${contentClassName}`}>
-                <h1 className={`font-h1 text-size-h1 leading-line-h1 font-primary whitespace-pre-line ${colors.title}`}>
+                <h1 className={`font-h1 text-size-h2 md:text-size-h1 leading-line-h2 md:leading-line-h1 font-primary whitespace-pre-line ${colors.title}`}>
                     {isAnimated ? (
-                        <div className={`relative inline-flex h-30 justify-center items-center ${colors.highlight}`}>
+                        <div className={`relative inline-flex h md:h-30 justify-center items-center ${colors.highlight}`}>
                             <AnimatedHeroText />
                         </div>
                     ) : highlight ? (
@@ -104,7 +104,7 @@ export const TextSection = ({
                 </h1>
 
                 {subtitle && (
-                    <p className={`font-secondary font-b1 leading-line-b1 text-size-b1 ${subtitleClassName} whitespace-pre-line ${colors.subtitle}`}>
+                    <p className={`font-secondary font-b2 leading-line-b2 text-size-b2 md:font-b1 md:leading-line-b1 md:text-size-b1 ${subtitleClassName} whitespace-pre-line ${colors.subtitle}`}>
                         {subtitle}
                     </p>
                 )}
