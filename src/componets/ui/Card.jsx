@@ -6,7 +6,7 @@ const variants = {
 const sizes = {
     horizontal: 'p-7.5 gap-3 w-81.75 h-auto',
     vertical: 'p-10 gap-7.5 w-88 h-93.75',
-    horizontalXl: 'w-[550px] p-[60px]'
+    horizontalXl: 'w-auto md:w-[550px] p-10 md:p-[60px]'
 }
 
 const titleTextSizes = {
