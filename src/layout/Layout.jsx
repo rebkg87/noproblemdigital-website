@@ -1,13 +1,15 @@
 import { useEffect } from "react";
 import { useTheme } from "../providers/ThemeProvider"
-import { Outlet } from "react-router-dom";
+import { Outlet, useLocation } from "react-router-dom";
 import { Header } from "../componets/common/Header";
 import { Footer } from "../componets/common/Footer";
 
 export const Layout = () => {
+    const location = useLocation();
+
     /* const { darkMode } = useTheme();
 
-    useEffect(()=> { 
+    useEffect(()=> {
         if (darkMode) {
             document.body.classList.add('bg-primary')
             document.body.classList.remove('bg-white');
@@ -17,6 +19,10 @@ export const Layout = () => {
 
         }
     },[darkMode]) */
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [location.pathname]);
 
     return (
         <div>
