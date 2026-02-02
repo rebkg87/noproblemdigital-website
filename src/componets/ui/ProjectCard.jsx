@@ -10,8 +10,8 @@ export const ProjectCard = ({ title, description, tags, cover, gallery = [], alt
 
     return (
         <>
-            <div className="bg-white flex flex-col shadow-soft p-[40px] justify-center rounded-[20px]">
-                <div className="flex flex-col md:flex-row items-stretch justify-center gap-10">
+            <div className="bg-white flex flex-col shadow-soft p-5 md:p-[40px] justify-center rounded-[20px]">
+                <div className="flex flex-col md:flex-row items-stretch justify-center gap-5 md:gap-10">
                     <img
                         src={cover}
                         alt={alt || title}
