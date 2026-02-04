@@ -14,7 +14,7 @@
             {
                 "label": "NOSOTROS",
                 "href": "/nosotros",
-                "enabled": false
+                "enabled": true
             },
             {
                 "label": "CONTACTO",
@@ -231,7 +231,8 @@
                 "title": "Peterjam's Seafood",
                 "description": "Marca de productos del mar empacados al vacío, enfocada en ofrecer frescura, calidad y confianza a través de una propuesta visual clara y reconocible. Desarrollamos la identidad gráfica completa de la marca, incluyendo el sistema visual, papelería corporativa y el diseño de etiquetas para empaques, cuidando la legibilidad, jerarquía de información y coherencia en el punto de venta. Además, apoyamos el proyecto con piezas de copy para reforzar el tono de marca y su propuesta de valor.",
                 "tags": [
-                    "Diseño Gráfico" , "Copywriting"
+                    "Diseño Gráfico",
+                    "Copywriting"
                 ],
                 "cover": "/images/projects/peterjamsSeafood/peterjam_tarjetas.jpg",
                 "gallery": [
@@ -247,7 +248,8 @@
                 "title": "Violencia de Género\ny Alerta de Violencia de Género contra las Mujeres",
                 "description": "Proyecto editorial de divulgación y concienciación social enfocado en informar, prevenir y visibilizar la violencia de género en México, así como en difundir los mecanismos de protección y denuncia disponibles para las mujeres. Desarrollamos el diseño gráfico y la diagramación de la revista, creando un sistema visual claro, accesible y didáctico que facilitara la comprensión de información compleja y sensible.",
                 "tags": [
-                    "Diseño Gráfico" , "Diseño Editorial"
+                    "Diseño Gráfico",
+                    "Diseño Editorial"
                 ],
                 "cover": "/images/projects/project4.webp",
                 "gallery": [
@@ -262,7 +264,11 @@
                 "title": "Colegio Reims",
                 "description": "Institución educativa para la que actuamos como agencia creativa integral durante dos años, acompañando la evolución y consolidación de su marca en entornos digitales y presenciales.\n\nDesarrollamos la estrategia de marca, campañas creativas y línea de comunicación, definiendo el tono, los mensajes clave y el enfoque visual. Ejecutamos soluciones gráficas para redes sociales, campañas publicitarias, Ads, desarrollo web, material POP y espectaculares, además de la creación de copys alineados con los valores y objetivos del colegio. El trabajo estuvo orientado a fortalecer la conexión emocional con la comunidad educativa, mejorar el engagement y reforzar la recordación de marca en todos los puntos de contacto.",
                 "tags": [
-                    "Diseño Gráfico" , "Diseño Editorial" , "Copywriting" , "Desarrollo Web" , "Estrategia Digital"
+                    "Diseño Gráfico",
+                    "Diseño Editorial",
+                    "Copywriting",
+                    "Desarrollo Web",
+                    "Estrategia Digital"
                 ],
                 "cover": "/images/projects/reims/reims1.jpg",
                 "gallery": [
@@ -277,5 +283,58 @@
                 ]
             }
         ]
+    },
+    "about-us": {
+        "intro": {
+            "title": "Diseño,\nestrategia y tecnología para *marcas* que quieren *crecer con sentido*",
+            "subtitle": "Somos un estudio creativo que combina diseño gráfico, branding y desarrollo web para ayudar a marcas y proyectos a comunicar mejor, verse coherentes y funcionar de verdad.\n\nTrabajamos con marcas que buscan algo más que una web bonita o una identidad visual atractiva. Proyectos que necesitan claridad, estrategia y una base sólida para crecer en un entorno digital en constante cambio.\n\nCada proyecto parte de una idea clara, unos objetivos definidos y un proceso pensado a medida. Nos involucramos desde el inicio, cuidando tanto el diseño como la funcionalidad, y trabajando siempre desde la cercanía y la colaboración."
+        },
+        "how": {
+            "title": "Como trabajamos",
+            "subtitle": "Creemos en los procesos claros, las conversaciones honestas y el trabajo bien hecho.",
+            "steps": [
+                {
+                    "title": "Primera llamada",
+                    "description": "Empezamos con una llamada para conocernos, entender el proyecto y ver si vibramos en la misma sintonía. Si no hay feeling, preferimos decirlo a tiempo.",
+                    "icon":"/icons/number1.svg"
+                },
+                {
+                    "title": "Análisis del proyecto",
+                    "description": "Escuchamos, analizamos necesidades y objetivos, y bajamos la idea a algo concreto y realista.",
+                    "icon":"/icons/number2.svg"
+
+                },
+                {
+                    "title": "Propuesta y presupuesto",
+                    "description": "Preparamos una propuesta clara con alcance, entregables, tiempos y presupuesto. Sin letra pequeña ni sorpresas.",
+                    "icon":"/icons/number3.svg"
+                },
+                {
+                    "title": "Acuerdo y planificación",
+                    "description": "Si todo encaja, formalizamos el acuerdo, dejamos claras las bases del proyecto y definimos el timeline para trabajar con orden y claridad.",
+                    "icon":"/icons/number4.svg"
+                },
+                {
+                    "title": "Desarrollo del proyecto",
+                    "description": "Ejecutamos el trabajo acordado, ya sea estrategia, diseño, desarrollo web o contenido, con comunicación constante y revisiones claras.",
+                    "icon":"/icons/number5.svg"
+                },
+                {
+                    "title": "Entrega y acompañamiento",
+                    "description": "Cerramos el proyecto y acompañamos el lanzamiento o la entrega final para asegurar que todo funcione como debe.",
+                    "icon":"/icons/number6.svg"
+                }
+            ]
+        },
+        "team": {
+            "section1": {
+                "title": "Hacia *dónde* vamos",
+                "subtitle": "Queremos crear marcas honestas, coherentes y preparadas para crecer, con una identidad clara y una presencia digital que tenga sentido hoy y mañana.\n\nBuscamos ser un estudio creativo de referencia para marcas que valoran el diseño con propósito, la estrategia bien pensada y el trabajo cercano y sin complicaciones."
+            },
+            "section2": {
+                "title": "Quiénes *estamos* detrás",
+                "subtitle": "Detrás de NPD hay un equipo creativo con experiencia en branding, diseño gráfico, desarrollo web y estrategia digital, acostumbrado a trabajar con marcas y proyectos de distintos tamaños. Nos implicamos como parte del equipo, no como un proveedor más.\n\nCreemos en la comunicación clara, el trabajo bien hecho y la colaboración cercana. No usamos tecnicismos ni fórmulas vacías: transformamos ideas en resultados reales, sin complicaciones."
+            }
+        }
     }
 }

@@ -36,6 +36,13 @@ const variants = {
         highlight: 'text-brand-secondary',
         title: 'text-content-inverse',
         subtitle: 'text-content-inverse'
+    },
+    darkInverse: {
+        container: '',
+        label: 'text-brand-secondary',
+        highlight: 'text-content-inverse',
+        title: 'text-brand-secondary',
+        subtitle: 'text-content-inverse'
     }
 }
 
@@ -71,6 +78,7 @@ export const TextSection = ({
     alignment = "center",
     direction = "col",
     variant = "hero",
+    titleClassName = "",
     subtitleClassName = "",
     contentClassName = "",
     className = ""
@@ -92,7 +100,7 @@ export const TextSection = ({
                 </span>
             )}
             <div className={`flex ${dir} ${align} ${contentClassName}`}>
-                <h1 className={`font-h1 text-size-h2 md:text-size-h1 leading-line-h2 md:leading-line-h1 font-primary whitespace-pre-line ${colors.title}`}>
+                <h1 className={`font-h1 text-size-h2 md:text-size-h1 leading-line-h2 md:leading-line-h1 font-primary whitespace-pre-line ${titleClassName} ${colors.title}`}>
                     {isAnimated ? (
                         <div className={`relative inline-flex h md:h-30 justify-center items-center ${colors.highlight}`}>
                             <AnimatedHeroText />

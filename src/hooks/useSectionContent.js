@@ -19,5 +19,12 @@ export const useSectionContent = (section) => {
         validation: t(`${section}.validation`, { returnObjects: true }),
         status: t(`${section}.status`, { returnObjects: true }),
         projects: t(`${section}.projects`, { returnObjects: true }),
+        intro: t(`${section}.intro`, { returnObjects: true }),
+        how: t(`${section}.how`, { returnObjects: true }),
+        steps: t(`${section}.steps`, { returnObjects: true }),
+        team: t(`${section}.team`, { returnObjects: true }),
+        section1: t(`${section}.section1`, { returnObjects: true }),
+        section2: t(`${section}.section2`, { returnObjects: true }),
+
     }
 }
