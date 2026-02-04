@@ -1,6 +1,6 @@
 const variants = {
     redOutline: 'bg-transparent border border-brand-secondary rounded-[10px]',
-    whiteOutline: 'bg-transparent border border-white hover:bg-state-hover-accent transition-colors',
+    whiteOutline: 'bg-transparent border border-white hover:bg-state-hover-accent transition-colors rounded-tr-[40px]',
 }
 
 const sizes = {

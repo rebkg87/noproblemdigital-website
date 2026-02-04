@@ -12,7 +12,7 @@ export const ServicesSection = () =>  {
             <TextSection labelKey={content.label} titleKey={content.title} subtitleKey={content.subtitle} variant="accent" contentClassName='gap-5'/>
             <div className="gap-5 md:gap-8.75 grid grid-cols-1 md:grid-cols-3">
             {content.cards.map ((card, index) => (
-                <Card key={index} title={card.title} description={card.description} variant="whiteOutline" size="vertical" className="text-white" icon={ArrowUpIcon} iconPosition="bottom" titleTextSize="md" descriptionTextSize="sm" disabled={!card.enabled} onButtonClick={() => navigate(card.href)} />
+                <Card key={index} title={card.title} description={card.description} variant="whiteOutline" size="vertical" className="text-white shadow-soft" icon={ArrowUpIcon} iconPosition="bottom" titleTextSize="md" descriptionTextSize="sm"  disabled={!card.enabled} onButtonClick={() => navigate(card.href)} />
             ))}
             </div>
         </section>
