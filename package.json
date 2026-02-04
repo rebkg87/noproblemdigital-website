@@ -10,13 +10,20 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@tailwindcss/vite": "^4.1.12",
+    "@emailjs/browser": "^4.4.1",
+    "i18next": "^25.7.4",
+    "motion": "^12.27.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
-    "tailwindcss": "^4.1.12"
+    "react-hook-form": "^7.71.1",
+    "react-i18next": "^16.5.3",
+    "react-router-dom": "^7.12.0",
+    "typewriter-effect": "^2.22.0",
+    "yet-another-react-lightbox": "^3.28.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.33.0",
+    "@tailwindcss/vite": "^4.1.18",
     "@types/react": "^19.1.10",
     "@types/react-dom": "^19.1.7",
     "@vitejs/plugin-react-swc": "^4.0.0",
@@ -24,6 +31,7 @@
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.20",
     "globals": "^16.3.0",
+    "tailwindcss": "^4.1.18",
     "vite": "^7.1.2"
   }
 }

@@ -1,0 +1,340 @@
+{
+    "navigation": {
+        "nav-items": [
+            {
+                "label": "SERVICIOS",
+                "href": "/servicios",
+                "enabled": false
+            },
+            {
+                "label": "PROYECTOS",
+                "href": "/proyectos",
+                "enabled": true
+            },
+            {
+                "label": "NOSOTROS",
+                "href": "/nosotros",
+                "enabled": true
+            },
+            {
+                "label": "CONTACTO",
+                "href": "/contacto",
+                "enabled": true
+            }
+        ]
+    },
+    "hero": {
+        "title": "sin complicaciones.",
+        "subtitle": "Creamos marcas auténticas que venden, conectan y crecen contigo. Nos encargamos de lo complejo para que tú te enfoques en lo importante.",
+        "button-text": "Empieza tu proyecto"
+    },
+    "benefits": {
+        "title": "Diseñamos\ncon propósito.\nTrabajamos\ncontigo.",
+        "subtitle": "No se trata solo de tener una marca bonita o una web funcional. Se trata de sentirte acompañada, de tener claridad y de confiar en que tu proyecto está en buenas manos.\n \n En No Problem Digital, combinamos diseño, estrategia y contenido para que tu marca crezca con propósito y sin complicaciones.",
+        "cards": [
+            {
+                "title": "Todo en un mismo lugar",
+                "description": "Branding, web, estrategia, contenido, campañas, fotografía…\nNos encargamos de todo para que no tengas que coordinar mil proveedores distintos."
+            },
+            {
+                "title": "Sin tecnisismos, con claridad",
+                "description": "Te explicamos todo en tu idioma. Sin rodeos, sin palabrería vacía.\nQueremos que entiendas tu marca tanto como nosotros."
+            },
+            {
+                "title": "Soluciones que conectan \n(y venden)",
+                "description": "Nuestro enfoque no es solo estético: todo lo que diseñamos está pensado para atraer, emocionar y convertir."
+            }
+        ]
+    },
+    "services": {
+        "label": "SERVICIOS",
+        "title": "Todo lo que *tu marca* necesita,\nen un solo lugar.",
+        "subtitle": "Desde la idea hasta la ejecución.\n Diseñamos, escribimos, desarrollamos y lanzamos proyectos que se ven bien, funcionan y conectan con la gente adecuada.\nTrabajamos contigo para que cada parte de tu marca tenga sentido, coherencia y estrategia.",
+        "cards": [
+            {
+                "title": "Diseño Gráfico",
+                "description": "Creamos piezas visuales que elevan tu marca y transmiten su personalidad, desde redes sociales hasta campañas completas.",
+                "href": "/servicios/diseno-grafico",
+                "enabled": false
+            },
+            {
+                "title": "Branding",
+                "description": "No es solo un logo. Es cómo te ven, qué transmites y qué recuerdan de ti. Te ayudamos a construir una marca con identidad propia.",
+                "href": "/servicios/branding",
+                "enabled": false
+            },
+            {
+                "title": "Desarrollo Web",
+                "description": "Diseñamos y desarrollamos webs responsivas, rápidas y alineadas a tu propósito. Pensadas para verse brutales y funcionar sin fallos.",
+                "href": "/servicios/diseno-web",
+                "enabled": false
+            },
+            {
+                "title": "Estategia Digital",
+                "description": "Cada acción debe tener un porqué. Armamos contigo una estrategia clara que guíe tu marca, campañas o lanzamientos.",
+                "href": "/servicios/estrategia-digital",
+                "enabled": false
+            },
+            {
+                "title": "Copywriting",
+                "description": "Textos que suenan como tú, pero venden como nadie. Webs, redes, anuncios y todo lo que necesite una voz potente (y coherente).",
+                "href": "/servicios/copywriting",
+                "enabled": false
+            },
+            {
+                "title": "Fotografía",
+                "description": "Contenido visual auténtico y profesional. Sesiones de producto, retratos y lifestyle que muestran lo mejor de tu marca.",
+                "href": "/servicios/fotografia",
+                "enabled": false
+            }
+        ],
+        "rotating": [
+            "Diseño Gráfico",
+            "Branding",
+            "Web",
+            "Estrategia",
+            "Copywriting",
+            "Fotografía"
+        ]
+    },
+    "about": {
+        "title": "Tu equipo creativo, estratégico y sin rodeos.",
+        "subtitle": "Somos un estudio creativo que une diseño, desarrollo, marketing y contenido para ayudar a marcas a crecer con claridad, coherencia y propósito. Con más de 15 años de experiencia combinada, trabajamos desde un enfoque integral que va más allá de lo visual: entendemos qué necesita tu proyecto, cómo comunicarlo y cómo hacerlo funcionar.\n\nEn No Problem Digital creemos en trabajar de forma cercana, clara y alineada a tus objetivos. No usamos fórmulas vacías ni tecnicismos innecesarios: transformamos ideas en resultados reales, sin complicaciones."
+    },
+    "projects": {
+        "label": "PROYECTOS",
+        "title": "Proyectos *con propósito*,\ndiseño con intención.",
+        "subtitle": "Cada proyecto que ves aquí fue creado con estrategia, diseño y una ejecución pensada al detalle.\n Trabajamos con marcas que quieren destacar, comunicar con claridad y conectar con su audiencia de forma auténtica.\nDesde branding hasta desarrollo web, pasando por campañas, contenido y fotografía, nuestra misión siempre es la misma:\ntransformar ideas en resultados visuales y funcionales que impulsan a nuestros clientes a crecer.",
+        "button-text": "Ver nuestros proyectos"
+    },
+    "cta": {
+        "title": "*Tu marca* no tiene\nque hacerlo todo sola.",
+        "subtitle": "Una marca con intención empieza con una buena conversación.",
+        "button-text": "Empiecemos con tu proyecto"
+    },
+    "contact": {
+        "title": "Empecemos algo\ncon *intención*.",
+        "subtitle": "No creemos en formularios eternos ni en mensajes que caen en el vacío. Cuéntanos qué tienes en mente y vemos si encajamos. Si vibramos, lo construimos juntos. Sin complicaciones.",
+        "button-text": "Hablemos",
+        "checkbox": "Estoy de acuerdo con los términos de uso y política de privacidad.",
+        "form": [
+            {
+                "label": "Nombre",
+                "placeholder": "Escribe tu nombre",
+                "name": "name",
+                "type": "text",
+                "required": true
+            },
+            {
+                "label": "Email",
+                "placeholder": "Escribe tu email",
+                "name": "email",
+                "type": "email",
+                "required": true
+            },
+            {
+                "label": "Mensaje",
+                "placeholder": "Cuéntanos brevemente qué necesitas o qué te gustaría mejorar.",
+                "name": "message",
+                "type": "textarea",
+                "required": true
+            }
+        ],
+        "dropdown": {
+            "label": "Selecciona el tipo de proyecto",
+            "options": [
+                "Diseño Gráfico",
+                "Branding",
+                "Desarrollo Web",
+                "Estrategia Digital",
+                "Copywriting",
+                "Fotografía",
+                "Aun no lo tengo claro"
+            ]
+        },
+        "validation": {
+            "nameRequired": "El nombre es obligatorio",
+            "emailRequired": "El email es obligatorio",
+            "emailInvalid": "El email no es válido",
+            "messageRequired": "El mensaje es obligatorio",
+            "projectRequired": "Selecciona un tipo de proyecto",
+            "checkboxRequired": "Debes aceptar los términos"
+        },
+        "status": {
+            "sending": "Aquí vamos...",
+            "success": "¡Mensaje enviado! Te contactaremos pronto.",
+            "error": "Hubo un error. Por favor intenta de nuevo."
+        }
+    },
+    "portfolio": {
+        "title": "Trabajo *real*.\nResultados\nque *se sienten*.",
+        "subtitle": "Aquí no hay trabajos “bonitos porque sí”. Cada proyecto responde a una estrategia, a un objetivo claro y a una forma de trabajar cercana y colaborativa. Desde la identidad hasta la web, todo lo que ves aquí está pensado para durar, escalar y funcionar en el mundo real.\n\nExplora nuestro portafolio y descubre cómo ayudamos a marcas a crecer con diseño, estrategia y contenido que conecta de verdad.",
+        "dropdown": {
+            "label": "Filtrar por tipo de proyecto",
+            "options": [
+                "Todos",
+                "Branding",
+                "Copywriting",
+                "Desarrollo Web",
+                "Diseño Gráfico",
+                "Estrategia Digital",
+                "Fotografía"
+            ]
+        },
+        "projects": [
+            {
+                "id": "penta-c",
+                "title": "Penta-C",
+                "description": "Proyecto europeo centrado en el impulso de comunidades energéticas sostenibles, combinando innovación tecnológica, participación ciudadana y nuevos modelos de gobernanza. Desarrollamos la identidad visual y los materiales gráficos del proyecto, incluyendo el diseño del logotipo y piezas de comunicación para entornos digitales e impresos, enfocados en crear un sistema visual claro y coherente, alineado con los valores de sostenibilidad, innovación y colaboración que definen PENTA-C.",
+                "tags": [
+                    "Branding",
+                    "Diseño Gráfico"
+                ],
+                "cover": "/images/projects/pentaC_cover.png",
+                "gallery": [
+                    "/images/projects/penta-c/1.png",
+                    "/images/projects/penta-c/2.png",
+                    "/images/projects/penta-c/3.png",
+                    "/images/projects/penta-c/4.png",
+                    "/images/projects/penta-c/5.png",
+                    "/images/projects/penta-c/6.png",
+                    "/images/projects/penta-c/7.png",
+                    "/images/projects/penta-c/8.png",
+                    "/images/projects/penta-c/9.png",
+                    "/images/projects/penta-c/10.png",
+                    "/images/projects/penta-c/11.png",
+                    "/images/projects/penta-c/12.png",
+                    "/images/projects/penta-c/13.png",
+                    "/images/projects/penta-c/14.png",
+                    "/images/projects/penta-c/15.png",
+                    "/images/projects/penta-c/16.png"
+                ]
+            },
+            {
+                "id": "nissan",
+                "title": "Playbook Nissan México",
+                "description": "Diseño y diagramación editorial de un playbook estratégico desarrollado para Nissan y su red de distribuidores, enfocado en la gestión integral del talento humano, transformando un contenido técnico, extenso y altamente estructurado en una pieza clara, usable y visualmente coherente con la marca Nissan, manteniendo la jerarquía de la información y facilitando su lectura y aplicación en contextos reales de negocio.",
+                "tags": [
+                    "Diseño Gráfico"
+                ],
+                "cover": "/images/projects/nissan/nissan1.jpg",
+                "gallery": [
+                    "/images/projects/nissan/nissan1.jpg",
+                    "/images/projects/nissan/nissan2.jpg",
+                    "/images/projects/nissan/nissan3.jpg",
+                    "/images/projects/nissan/nissan4.jpg",
+                    "/images/projects/nissan/nissan5.jpg"
+                ]
+            },
+            {
+                "id": "peterjamsSeafood",
+                "title": "Peterjam's Seafood",
+                "description": "Marca de productos del mar empacados al vacío, enfocada en ofrecer frescura, calidad y confianza a través de una propuesta visual clara y reconocible. Desarrollamos la identidad gráfica completa de la marca, incluyendo el sistema visual, papelería corporativa y el diseño de etiquetas para empaques, cuidando la legibilidad, jerarquía de información y coherencia en el punto de venta. Además, apoyamos el proyecto con piezas de copy para reforzar el tono de marca y su propuesta de valor.",
+                "tags": [
+                    "Diseño Gráfico",
+                    "Copywriting"
+                ],
+                "cover": "/images/projects/peterjamsSeafood/peterjam_tarjetas.jpg",
+                "gallery": [
+                    "/images/projects/peterjamsSeafood/peterjam_tarjetas.jpg",
+                    "/images/projects/peterjamsSeafood/peterjam_sticker.webp",
+                    "/images/projects/peterjamsSeafood/peterjam_1.jpg",
+                    "/images/projects/peterjamsSeafood/peterjam_2.jpg",
+                    "/images/projects/peterjamsSeafood/peterjam_3.jpg"
+                ]
+            },
+            {
+                "id": "revista-violencia",
+                "title": "Violencia de Género\ny Alerta de Violencia de Género contra las Mujeres",
+                "description": "Proyecto editorial de divulgación y concienciación social enfocado en informar, prevenir y visibilizar la violencia de género en México, así como en difundir los mecanismos de protección y denuncia disponibles para las mujeres. Desarrollamos el diseño gráfico y la diagramación de la revista, creando un sistema visual claro, accesible y didáctico que facilitara la comprensión de información compleja y sensible.",
+                "tags": [
+                    "Diseño Gráfico",
+                    "Diseño Editorial"
+                ],
+                "cover": "/images/projects/project4.webp",
+                "gallery": [
+                    "/images/projects/revista/revista_1.webp",
+                    "/images/projects/revista/revista_2.webp",
+                    "/images/projects/revista/revista_3.webp",
+                    "/images/projects/revista/revista_4.webp"
+                ]
+            },
+            {
+                "id": "colegio-reims",
+                "title": "Colegio Reims",
+                "description": "Institución educativa para la que actuamos como agencia creativa integral durante dos años, acompañando la evolución y consolidación de su marca en entornos digitales y presenciales.\n\nDesarrollamos la estrategia de marca, campañas creativas y línea de comunicación, definiendo el tono, los mensajes clave y el enfoque visual. Ejecutamos soluciones gráficas para redes sociales, campañas publicitarias, Ads, desarrollo web, material POP y espectaculares, además de la creación de copys alineados con los valores y objetivos del colegio. El trabajo estuvo orientado a fortalecer la conexión emocional con la comunidad educativa, mejorar el engagement y reforzar la recordación de marca en todos los puntos de contacto.",
+                "tags": [
+                    "Diseño Gráfico",
+                    "Diseño Editorial",
+                    "Copywriting",
+                    "Desarrollo Web",
+                    "Estrategia Digital"
+                ],
+                "cover": "/images/projects/reims/reims1.jpg",
+                "gallery": [
+                    "/images/projects/reims/reims1.jpg",
+                    "/images/projects/reims/reims2.jpg",
+                    "/images/projects/reims/reims3.jpg",
+                    "/images/projects/reims/reims4.jpg",
+                    "/images/projects/reims/reims5.jpg",
+                    "/images/projects/reims/reims6.jpg",
+                    "/images/projects/reims/reims7.jpg",
+                    "/images/projects/reims/reims8.jpg"
+                ]
+            }
+        ]
+    },
+    "about-us": {
+        "intro": {
+            "title": "Diseño,\nestrategia y tecnología para *marcas* que quieren *crecer con sentido*",
+            "subtitle": "Somos un estudio creativo que combina diseño gráfico, branding y desarrollo web para ayudar a marcas y proyectos a comunicar mejor, verse coherentes y funcionar de verdad.\n\nTrabajamos con marcas que buscan algo más que una web bonita o una identidad visual atractiva. Proyectos que necesitan claridad, estrategia y una base sólida para crecer en un entorno digital en constante cambio.\n\nCada proyecto parte de una idea clara, unos objetivos definidos y un proceso pensado a medida. Nos involucramos desde el inicio, cuidando tanto el diseño como la funcionalidad, y trabajando siempre desde la cercanía y la colaboración."
+        },
+        "how": {
+            "title": "Como trabajamos",
+            "subtitle": "Creemos en los procesos claros, las conversaciones honestas y el trabajo bien hecho.",
+            "steps": [
+                {
+                    "title": "Primera llamada",
+                    "description": "Empezamos con una llamada para conocernos, entender el proyecto y ver si vibramos en la misma sintonía. Si no hay feeling, preferimos decirlo a tiempo.",
+                    "icon":"/icons/number1.svg"
+                },
+                {
+                    "title": "Análisis del proyecto",
+                    "description": "Escuchamos, analizamos necesidades y objetivos, y bajamos la idea a algo concreto y realista.",
+                    "icon":"/icons/number2.svg"
+
+                },
+                {
+                    "title": "Propuesta y presupuesto",
+                    "description": "Preparamos una propuesta clara con alcance, entregables, tiempos y presupuesto. Sin letra pequeña ni sorpresas.",
+                    "icon":"/icons/number3.svg"
+                },
+                {
+                    "title": "Acuerdo y planificación",
+                    "description": "Si todo encaja, formalizamos el acuerdo, dejamos claras las bases del proyecto y definimos el timeline para trabajar con orden y claridad.",
+                    "icon":"/icons/number4.svg"
+                },
+                {
+                    "title": "Desarrollo del proyecto",
+                    "description": "Ejecutamos el trabajo acordado, ya sea estrategia, diseño, desarrollo web o contenido, con comunicación constante y revisiones claras.",
+                    "icon":"/icons/number5.svg"
+                },
+                {
+                    "title": "Entrega y acompañamiento",
+                    "description": "Cerramos el proyecto y acompañamos el lanzamiento o la entrega final para asegurar que todo funcione como debe.",
+                    "icon":"/icons/number6.svg"
+                }
+            ]
+        },
+        "team": {
+            "section1": {
+                "title": "Hacia *dónde* vamos",
+                "subtitle": "Queremos crear marcas honestas, coherentes y preparadas para crecer, con una identidad clara y una presencia digital que tenga sentido hoy y mañana.\n\nBuscamos ser un estudio creativo de referencia para marcas que valoran el diseño con propósito, la estrategia bien pensada y el trabajo cercano y sin complicaciones."
+            },
+            "section2": {
+                "title": "Quiénes *estamos* detrás",
+                "subtitle": "Detrás de NPD hay un equipo creativo con experiencia en branding, diseño gráfico, desarrollo web y estrategia digital, acostumbrado a trabajar con marcas y proyectos de distintos tamaños. Nos implicamos como parte del equipo, no como un proveedor más.\n\nCreemos en la comunicación clara, el trabajo bien hecho y la colaboración cercana. No usamos tecnicismos ni fórmulas vacías: transformamos ideas en resultados reales, sin complicaciones."
+            }
+        }
+    }
+}
