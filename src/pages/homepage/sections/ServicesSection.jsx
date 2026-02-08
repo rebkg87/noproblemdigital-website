@@ -8,7 +8,7 @@ export const ServicesSection = () =>  {
     const content = useSectionContent('services');
     const navigate = useNavigate();
     return (
-        <section className="bg-brand-secondary w-full h-auto md:h-360 px-2.5 md:px-24 py-10 md:py-28.75 flex flex-col items-center justify-center gap-5 md:gap-21.5">
+        <section className="bg-brand-secondary w-full h-auto md:h-360 px-10 md:px-24 py-10 md:py-28.75 flex flex-col items-center justify-center gap-5 md:gap-21.5">
             <TextSection labelKey={content.label} titleKey={content.title} subtitleKey={content.subtitle} variant="accent" contentClassName='gap-5'/>
             <div className="gap-5 md:gap-8.75 grid grid-cols-1 md:grid-cols-3">
             {content.cards.map ((card, index) => (

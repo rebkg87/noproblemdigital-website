@@ -1,8 +1,7 @@
 import { useState } from "react"
 import NPDLogo from "../icons/custom/NPDlogo"
-import { LanguageToggle } from "../ui/LanguageToggle"
 import { NavigationMenu } from "../ui/NavigationMenu"
-import { ThemeToggle } from "../ui/ThemeToggle"
+import { LanguageSwitchToggle } from "../ui/ThemeToggle"
 
 export const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -27,10 +26,7 @@ export const Header = () => {
             {/* Contenido del menú - oculto en mobile cuando está cerrado */}
             <div className={`${isMenuOpen ? 'flex' : 'hidden'} md:flex flex-col md:flex-row items-center gap-6.25 w-full md:w-auto mt-6.25 md:mt-0`}>
                 <NavigationMenu/>
-                <div className="flex flex-row gap-6.25 items-center">
-                    <LanguageToggle/>
-                    <ThemeToggle/>
-                </div>
+                <LanguageSwitchToggle/>
             </div>
         </div>
     )

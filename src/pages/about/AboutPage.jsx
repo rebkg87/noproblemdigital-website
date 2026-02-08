@@ -19,23 +19,7 @@ export const AboutPage = () => {
                     contentClassName="flex-col md:flex-row gap-8.75 md:!items-center"
                 />
             </div>
-            <div className="bg-white px-2.5 md:px-31.25 py-12 flex flex-col gap-10z items-center justify-center pb-20">
-                <TextSection
-                    titleKey={content.how.title}
-                    subtitleKey={content.how.subtitle}
-                    variant='lightRed'
-                    direction="col"
-                    alignment="left"
-                    subtitleClassName="max-w-149"
-                    contentClassName="flex-col md:flex-row gap-8.75 md:!items-center"
-                />
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-8.75">
-                    {content.how.steps.map((step, index) => (
-                        <Card key={index} title={step.title} description={step.description} icon={step.icon} iconPosition="top" variant="redOutline" size="horizontal" className=" shadow-soft justify-start "/>
-                    ))}
-                </div>
-            </div>
-            <div className="bg-brand-primary px-2.5 md:px-31.25 py-12 flex flex-col gap-2.5 ">
+            <div className="bg-brand-primary px-2.5 md:px-31.25 py-5 flex flex-col gap-2.5 md:gap-30 md:py-30 ">
                     <TextSection titleKey={content.team.section1.title} subtitleKey={content.team.section1.subtitle} variant="dark" direction="col" alignment="left" subtitleClassName="max-w-170" contentClassName="gap-8.75"/>
                     <TextSection titleKey={content.team.section2.title} subtitleKey={content.team.section2.subtitle} variant="darkInverse" direction="col" alignment="right" subtitleClassName="max-w-200" contentClassName="gap-8.75"/>
                 </div>
