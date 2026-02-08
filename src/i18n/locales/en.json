@@ -4,7 +4,7 @@
             {
                 "label": "SERVICES",
                 "href": "/servicios",
-                "enabled": false
+                "enabled": true
             },
             {
                 "label": "PROJECTS",
@@ -322,34 +322,32 @@
                 {
                     "title": "First call",
                     "description": "We start with a call to get to know each other, understand the project, and see if we're on the same wavelength. If there's no real fit, we'd rather say it early.",
-                    "icon":"/icons/number1.svg"
-
+                    "icon": "/icons/number1.svg"
                 },
                 {
                     "title": "Project analysis",
                     "description": "We listen, analyze needs and objectives, and turn the idea into something concrete and realistic.",
-                    "icon":"/icons/number2.svg"
+                    "icon": "/icons/number2.svg"
                 },
                 {
                     "title": "Proposal and budget",
                     "description": "We prepare a clear proposal with scope, deliverables, timelines, and budget. No fine print, no surprises.",
-                    "icon":"/icons/number3.svg"
+                    "icon": "/icons/number3.svg"
                 },
                 {
                     "title": "Agreement and planning",
                     "description": "If everything aligns, we formalize the agreement, set clear project foundations, and define a timeline to work with order and clarity.",
-                    "icon":"/icons/number4.svg"
+                    "icon": "/icons/number4.svg"
                 },
                 {
                     "title": "Project development",
                     "description": "We execute the agreed work-strategy, design, web development, or content-with constant communication and clear review stages.",
-                    "icon":"/icons/number5.svg"
+                    "icon": "/icons/number5.svg"
                 },
                 {
                     "title": "Delivery and support",
                     "description": "We close the project and support the launch or final delivery to make sure everything works as it should.",
-                    "icon":"/icons/number6.svg"
-
+                    "icon": "/icons/number6.svg"
                 }
             ]
         },
@@ -362,6 +360,177 @@
                 "title": "Who's *behind* it",
                 "subtitle": "Behind NPD is a creative team with experience in branding, graphic design, web development, and digital strategy, used to working with brands and projects of different sizes. We get involved as part of the team, not just another provider.\n\nWe believe in clear communication, quality work, and close collaboration. No unnecessary jargon or empty formulas—we turn ideas into real results, without complications."
             }
+        }
+    },
+    "services-page": {
+        "hero": {
+            "title": "What we do so your *brand truly works*",
+            "subtitle": "We design, plan, and build brands from strategy and intention.\n\nEvery service is designed to solve real problems, improve your digital presence, and help you grow with coherence, focus, and well-made decisions. No doing things just because. Everything has a reason."
+        },
+        "whatWeDo": {
+            "title": "What we do",
+            "items": [
+                {
+                    "key": "branding",
+                    "title": "Branding & Visual Identity",
+                    "description": "We create brands with criteria, personality, and meaning. It’s not just about a logo. It’s about building an identity that feels coherent, recognizable, and able to grow with you.",
+                    "includesLabel": "Includes:",
+                    "includes": [
+                        "Visual identity (logo, colors, typography)",
+                        "Graphic system adaptable to digital and physical formats",
+                        "Clear usage guidelines (not an endless PDF)",
+                        "Visual direction for real-world applications"
+                    ],
+                    "footerTagline": "Ideal if you’re starting out, relaunching\nor your brand no longer represents you."
+                },
+                {
+                    "key": "graphic-design",
+                    "title": "Graphic Design",
+                    "description": "Design that communicates, not just decorates. We create pieces designed to work in context: social media, campaigns, presentations, events, or printed materials.",
+                    "includesLabel": "Includes:",
+                    "includes": [
+                        "Social media content",
+                        "Ads and campaigns",
+                        "Presentations and corporate materials",
+                        "Stationery, packaging, and physical assets"
+                    ],
+                    "footerTagline": "Perfect if you need ongoing creative support\nor campaign-based work."
+                },
+                {
+                    "key": "web-development",
+                    "title": "Web Development",
+                    "description": "Websites that look good, load fast, and make sense. We design and develop websites focused on both users and business goals. No soulless, generic templates.",
+                    "includesLabel": "Includes:",
+                    "includes": [
+                        "Corporate website or landing page",
+                        "UX/UI design",
+                        "Custom development",
+                        "Responsive optimization and performance",
+                        "SEO-ready foundation"
+                    ],
+                    "footerTagline": "Ideal if you need a website that grows with you, not one that becomes obsolete."
+                },
+                {
+                    "key": "digital-strategy",
+                    "title": "Digital Strategy",
+                    "description": "Before designing, we think. We ground ideas, organize messages, and define a clear path so everything makes sense: brand, website, content, and actions.",
+                    "includesLabel": "Includes:",
+                    "includes": [
+                        "Brand and goals analysis",
+                        "Key message definition",
+                        "Digital structure proposal",
+                        "Actionable recommendations (not theory)"
+                    ],
+                    "footerTagline": "For projects that feel like\nthey’re “doing a lot, but without focus”."
+                },
+                {
+                    "key": "copywriting",
+                    "title": "Copywriting",
+                    "description": "Saying what you do is fine. Saying it well is better. We write clear, human copy aligned with your brand. No posturing or empty phrases.",
+                    "includesLabel": "Includes:",
+                    "includes": [
+                        "Website copy",
+                        "Brand messaging",
+                        "Campaign and landing page copy",
+                        "Tone adjustments and overall consistency"
+                    ],
+                    "footerTagline": "Ideal if your message isn’t connecting\nor doesn’t reflect who you are."
+                },
+                {
+                    "key": "photography",
+                    "title": "Photography",
+                    "description": "Images that tell a story, not just fill space. We create photography with purpose, built for branding, content, and real communication.",
+                    "includesLabel": "Includes:",
+                    "includes": [
+                        "Brand photography",
+                        "Content for web and social media",
+                        "Visual direction",
+                        "Careful selection and editing"
+                    ],
+                    "footerTagline": "Perfect for strengthening identity\nand professionalizing your presence."
+                }
+            ]
+        },
+        "monthly": {
+            "title": "Monthly *support*.",
+            "intro": "When you need more than one-off projects. Some brands don’t just need “a website and that’s it”. They need someone to think about their digital presence on an ongoing basis. That’s why we offer monthly support, acting as your external creative and digital team.",
+            "plans": [
+                {
+                    "key": "support",
+                    "title": "Digital Support",
+                    "tags": [
+                        "from €1,000/month"
+                    ],
+                    "description": "For brands that want stability and coherence.",
+                    "includesLabel": "Includes:",
+                    "includes": [
+                        "Ongoing digital strategy",
+                        "Web and UX optimization",
+                        "Monthly SEO (on-page, content, structure)",
+                        "Creative support (design, tweaks, improvements)",
+                        "Monthly review and clear next steps"
+                    ],
+                    "footerTagline": "Ideal for SMEs, personal brands\nand growing businesses."
+                },
+                {
+                    "key": "partner",
+                    "title": "Digital & Growth Partner",
+                    "tags": [
+                        "from €2,000/month"
+                    ],
+                    "description": "For projects that need to move forward for real.",
+                    "includesLabel": "Includes:",
+                    "includes": [
+                        "Digital and marketing strategy",
+                        "Advanced SEO",
+                        "Ongoing web development and improvements",
+                        "Creative direction for campaigns",
+                        "Coordination with internal teams"
+                    ],
+                    "footerTagline": "Works like having an in-house digital team,\nwithout the internal structure."
+                }
+            ]
+        },
+        "ourProcess": {
+            "title": "How we work",
+            "subtitle": "We believe in clear processes, honest conversations, and work\nwell done.",
+            "steps": [
+                {
+                    "number": 1,
+                    "title": "First call",
+                    "description": "We start with a call to get to know each other, understand the project, and see if we’re on the same wavelength. If there’s no real fit, we’d rather say it early."
+                },
+                {
+                    "number": 2,
+                    "title": "Project analysis",
+                    "description": "We listen, analyze needs and objectives, and turn the idea into something concrete and realistic."
+                },
+                {
+                    "number": 3,
+                    "title": "Proposal and budget",
+                    "description": "We prepare a clear proposal with scope, deliverables, timelines, and budget. No fine print, no surprises."
+                },
+                {
+                    "number": 4,
+                    "title": "Agreement and planning",
+                    "description": "If everything aligns, we formalize the agreement, set clear project foundations, and define a timeline to work with order and clarity."
+                },
+                {
+                    "number": 5,
+                    "title": "Timeline and execution",
+                    "description": "We execute the agreed work—strategy, design, web development, or content—with constant communication and clear review stages."
+                },
+                {
+                    "number": 6,
+                    "title": "Delivery and support",
+                    "description": "We close the project and support the launch or final delivery to ensure everything works as it should."
+                }
+            ]
+        },
+        "cta": {
+            "title": "Shall we start?",
+            "subtitle": "If you feel your brand needs order, clarity, and a real push forward, we can probably help.",
+            "buttonText": "Let’s start your project"
         }
     }
 }

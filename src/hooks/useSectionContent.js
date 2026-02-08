@@ -25,6 +25,12 @@ export const useSectionContent = (section) => {
         team: t(`${section}.team`, { returnObjects: true }),
         section1: t(`${section}.section1`, { returnObjects: true }),
         section2: t(`${section}.section2`, { returnObjects: true }),
-
+        hero: t(`${section}.hero`, { returnObjects: true }),    
+        whatWeDo: t(`${section}.whatWeDo`, { returnObjects: true }),
+        items: t(`${section}.items`, { returnObjects: true }),
+        monthly: t(`${section}.monthly`, { returnObjects: true }),
+        plans:  t(`${section}.plans`, { returnObjects: true }),
+        ourProcess: t(`${section}.ourProcess`, { returnObjects: true }),
+        cta: t(`${section}.cta`, { returnObjects: true }),
     }
 }
