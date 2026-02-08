@@ -4,7 +4,7 @@
             {
                 "label": "SERVICIOS",
                 "href": "/servicios",
-                "enabled": false
+                "enabled": true
             },
             {
                 "label": "PROYECTOS",
@@ -296,33 +296,32 @@
                 {
                     "title": "Primera llamada",
                     "description": "Empezamos con una llamada para conocernos, entender el proyecto y ver si vibramos en la misma sintonía. Si no hay feeling, preferimos decirlo a tiempo.",
-                    "icon":"/icons/number1.svg"
+                    "icon": "/icons/number1.svg"
                 },
                 {
                     "title": "Análisis del proyecto",
                     "description": "Escuchamos, analizamos necesidades y objetivos, y bajamos la idea a algo concreto y realista.",
-                    "icon":"/icons/number2.svg"
-
+                    "icon": "/icons/number2.svg"
                 },
                 {
                     "title": "Propuesta y presupuesto",
                     "description": "Preparamos una propuesta clara con alcance, entregables, tiempos y presupuesto. Sin letra pequeña ni sorpresas.",
-                    "icon":"/icons/number3.svg"
+                    "icon": "/icons/number3.svg"
                 },
                 {
                     "title": "Acuerdo y planificación",
                     "description": "Si todo encaja, formalizamos el acuerdo, dejamos claras las bases del proyecto y definimos el timeline para trabajar con orden y claridad.",
-                    "icon":"/icons/number4.svg"
+                    "icon": "/icons/number4.svg"
                 },
                 {
                     "title": "Desarrollo del proyecto",
                     "description": "Ejecutamos el trabajo acordado, ya sea estrategia, diseño, desarrollo web o contenido, con comunicación constante y revisiones claras.",
-                    "icon":"/icons/number5.svg"
+                    "icon": "/icons/number5.svg"
                 },
                 {
                     "title": "Entrega y acompañamiento",
                     "description": "Cerramos el proyecto y acompañamos el lanzamiento o la entrega final para asegurar que todo funcione como debe.",
-                    "icon":"/icons/number6.svg"
+                    "icon": "/icons/number6.svg"
                 }
             ]
         },
@@ -335,6 +334,179 @@
                 "title": "Quiénes *estamos* detrás",
                 "subtitle": "Detrás de NPD hay un equipo creativo con experiencia en branding, diseño gráfico, desarrollo web y estrategia digital, acostumbrado a trabajar con marcas y proyectos de distintos tamaños. Nos implicamos como parte del equipo, no como un proveedor más.\n\nCreemos en la comunicación clara, el trabajo bien hecho y la colaboración cercana. No usamos tecnicismos ni fórmulas vacías: transformamos ideas en resultados reales, sin complicaciones."
             }
+        }
+    },
+    "services-page": {
+        "hero": {
+            "title": "Lo que hacemos para que tu *marca funcione* de verdad",
+            "subtitle": "Diseñamos, planificamos y construimos marcas desde la estrategia y la intención.\n\nada servicio está pensado para resolver problemas reales, mejorar tu presencia digital y ayudarte a crecer con coherencia, foco y decisiones bien tomadas. Nada de hacer por hacer. Todo tiene un porqué."
+        },
+        "whatWeDo": {
+            "title": "Qué hacemos",
+            "items": [
+                {
+                    "key": "branding",
+                    "title": "Branding & Identidad Visual",
+                    "description": "Creamos marcas con criterio, personalidad y sentido. No se trata solo de un logo. Se trata de construir una identidad que tenga coherencia, que se reconozca y que pueda crecer contigo.",
+                    "includesLabel": "Incluye:",
+                    "includes": [
+                        "Identidad visual (logo, colores, tipografías)",
+                        "Sistema gráfico adaptable a digital y físico",
+                        "Guía de uso clara (no un PDF infinito)",
+                        "Dirección visual para aplicaciones reales"
+                    ],
+                    "footerTagline": "Ideal si estás empezando, relanzando\no tu marca ya no te representa."
+                },
+                {
+                    "key": "graphic-design",
+                    "title": "Diseño Gráfico",
+                    "description": "Diseño que comunica, no solo que decora. Creamos piezas pensadas para funcionar en contexto: redes, campañas, presentaciones, eventos o material impreso.",
+                    "includesLabel": "Incluye:",
+                    "includes": [
+                        "Contenido para RRSS",
+                        "Anuncios y campañas",
+                        "Presentaciones y materiales corporativos",
+                        "Papelería, packaging y soportes físicos"
+                    ],
+                    "footerTagline": "Perfecto si necesitas apoyo creativo\ncontinuo o por campañas."
+                },
+                {
+                    "key": "web-development",
+                    "title": "Desarrollo Web",
+                    "description": "Webs que se ven bien, cargan rápido y tienen lógica.Diseñamos y desarrollamos webs pensadas para el usuario y para el negocio. Nada de plantillas genéricas sin alma.",
+                    "includesLabel": "Incluye:",
+                    "includes": [
+                        "Web corporativa o landing page",
+                        "Diseño UX/UI",
+                        "Desarrollo a medida",
+                        "Optimización responsive y rendimiento",
+                        "Base preparada para SEO"
+                    ],
+                    "footerTagline": "Ideal si necesitas una web que acompañe tu crecimiento, no que se quede obsoleta."
+                },
+                {
+                    "key": "digital-strategy",
+                    "title": "Estrategia Digital",
+                    "description": "Antes de diseñar, pensamos.Aterrizamos ideas, ordenamos mensajes y definimos un camino claro para que todo tenga sentido: marca, web, contenido y acciones.",
+                    "includesLabel": "Incluye:",
+                    "includes": [
+                        "Análisis de marca y objetivos",
+                        "Definición de mensajes clave",
+                        "Propuesta de estructura digital",
+                        "Recomendaciones accionables (no teoría)"
+                    ],
+                    "footerTagline": "Para proyectos que sienten que\n“hacen muchas cosas, pero sin foco”."
+                },
+                {
+                    "key": "copywriting",
+                    "title": "Copywriting",
+                    "description": "Decir lo que haces está bien. Decirlo bien, mejor.Escribimos textos claros, humanos y alineados con tu marca. Sin postureo ni frases vacías.",
+                    "includesLabel": "Incluye:",
+                    "includes": [
+                        "Textos web",
+                        "Mensajes de marca",
+                        "Copy para campañas y landings",
+                        "Ajustes de tono y coherencia global"
+                    ],
+                    "footerTagline": "Ideal si tu mensaje no termina de conectar\no no refleja lo que eres."
+                },
+                {
+                    "key": "photography",
+                    "title": "Fotografía",
+                    "description": "Imágenes que cuentan algo, no solo rellenan. Trabajamos fotografía pensada para marca, contenido y comunicación real.",
+                    "includesLabel": "Incluye:",
+                    "includes": [
+                        "Fotografía de marca",
+                        "Contenido para web y redes",
+                        "Dirección visual",
+                        "Selección y edición cuidada"
+                    ],
+                    "footerTagline": "Perfecta para reforzar identidad\ny profesionalizar tu presencia."
+                }
+            ]
+        },
+        "monthly": {
+            "title": "Acompañamiento *mensual*.",
+            "intro": "Cuando necesitas algo más que proyectos sueltos. Hay marcas que no necesitan “hacer una web y ya”. Necesitan a alguien que piense su digital de forma continua. Por eso ofrecemos acompañamiento mensual, donde actuamos como tu equipo creativo y digital externo.",
+            "plans": [
+                {
+                    "key": "support",
+                    "title": "Acompañamiento Digital",
+                    "tags": ["desde 1.000 €/mes"],
+                    "description": "Para marcas que quieren estabilidad y coherencia.",
+                    "includesLabel": "Incluye:",
+                    "includes": [
+                        "Estrategia digital continua",
+                        "Optimización web y UX",
+                        "SEO mensual (on-page, contenidos, estructura)",
+                        "Soporte creativo (diseño, ajustes, mejoras)",
+                        "Revisión mensual y próximos pasos claros"
+                    ],
+                    "footerTagline": "Ideal para pymes, marcas personales\ny negocios en crecimiento."
+                },
+                {
+                    "key": "partner",
+                    "title": "Partner Digital & Growth",
+                    "tags": ["desde 2.000 €/mes"],
+                    "description": "Para proyectos que necesitan avanzar de verdad.",
+                    "includesLabel": "Incluye:",
+                    "includes": [
+                        "Estrategia digital + marketing",
+                        "SEO avanzado",
+                        "Desarrollo y mejoras web continuas",
+                        "Dirección creativa de campañas",
+                        "Coordinación con equipos internos"
+                    ],
+                    "footerTagline": "Funciona como tener un equipo digital interno,\nsin estructura interna."
+                }
+            ]
+        },
+        "ourProcess": {
+            "title": "Cómo trabajamos",
+            "subtitle": "Creemos en los procesos claros, las conversaciones honestas y el trabajo\nbien hecho.",
+            "steps": [
+                {
+                    "number": 1,
+                    "title": "Primera llamada",
+                    "description": "Empezamos con una llamada para conocernos, entender el proyecto y ver si vibramos en la misma sintonía. Si no hay feeling, preferimos decirlo a tiempo.",
+                    "alignment": "left"
+                },
+                {
+                    "number": 2,
+                    "title": "Análisis del proyecto",
+                    "description": "Escuchamos, analizamos necesidades y objetivos, y bajamos la idea a algo concreto y realista.",
+                    "alignment": "right"
+                },
+                {
+                    "number": 3,
+                    "title": "Propuesta y presupuesto",
+                    "description": "Preparamos una propuesta clara con alcance, entregables, tiempos y presupuesto. Sin letra pequeña ni sorpresas.",
+                    "alignment": "left"
+                },
+                {
+                    "number": 4,
+                    "title": "Acuerdo y planificación",
+                    "description": "Si todo encaja, formalizamos el acuerdo, dejamos claras las bases del proyecto y definimos el timeline para trabajar con orden y claridad.",
+                    "alignment": "right"
+                },
+                {
+                    "number": 5,
+                    "title": "Timeline y ejecución",
+                    "description": "Ejecutamos el trabajo acordado, ya sea estrategia, diseño, desarrollo web o contenido, con comunicación constante y revisiones claras.",
+                    "alignment": "left"
+                },
+                {
+                    "number": 6,
+                    "title": "Entrega y acompañamiento",
+                    "description": "Cerramos el proyecto y acompañamos el lanzamiento o la entrega final para asegurar que todo funcione como debe.",
+                    "alignment": "right"
+                }
+            ]
+        },
+        "cta": {
+            "title": "*¿*Empezamos*?*",
+            "subtitle": "Si sientes que tu marca necesita orden, claridad y un empujón real, probablemente podemos ayudarte.",
+            "buttonText": "Empecemos con tu proyecto"
         }
     }
 }
