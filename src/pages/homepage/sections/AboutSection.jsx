@@ -6,7 +6,7 @@ import { useSectionContent } from "../../../hooks/useSectionContent";
 export const AboutSection = () => {
     const content =  useSectionContent('about');
     return (
-        <section className="w-full h-auto bg-white flex flex-col md:flex-row items-center justify-center gap-12.5 py-15 px-2.5 md:px-0 md:py-24 ">
+        <section className="w-full h-auto bg-white flex flex-col md:flex-row items-center justify-center gap-12.5 py-15 px-15 md:px-0 md:py-24 ">
             <div className="relative w-[320px] h-125 md:w-118.25 md:h-135.75 mb-[-40px] md:mb-0">
                 <img
                     src={AboutImage1}

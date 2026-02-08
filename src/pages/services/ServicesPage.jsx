@@ -31,12 +31,12 @@ export const ServicesPage = () => {
                     ))}
                 </div>
             </div>
-            <section className="px-5.5 md:px-15 md:pb-15 pt-5 md:pt-14
+            <section className="px-5.5 md:px-15 md:py-25 py-5
             flex flex-col items-center justify-center md:gap-10 bg-white">
                 <TextSection titleKey={content.ourProcess.title} subtitleKey={content.ourProcess.subtitle} alignment="center" variant="lightRed" contentClassName="gap-2.5" />
                 <Timeline steps={content.ourProcess.steps} />
             </section>
-            <section className="relative h-auto md:h-145.5 overflow-hidden">
+            <section className="relative h-auto md:h-115 overflow-hidden">
                         <div
                             className="absolute inset-0 bg-cover bg-center rotate-180"
                             style={{ backgroundImage: `url(${bgCTA})` }}

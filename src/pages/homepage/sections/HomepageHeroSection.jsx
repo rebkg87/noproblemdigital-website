@@ -12,7 +12,7 @@ export const HomepageHeroSection = () => {
             className="bg-cover h-auto md:h-190"
             style={{ backgroundImage: `url(${bgHero})` }}
         >
-            <div className='px-2.5 md:px-0 pt-45 flex flex-col items-center justify-center gap-10 md:gap-12 pb-25 md:pb-44'>
+            <div className='px-2.5 md:px-0 pt-65 flex flex-col items-center justify-center gap-10 md:gap-12 py-25 md:py-55'>
                 <TextSection isAnimated titleKey={content.title} subtitleKey={content.subtitle} variant='hero' contentClassName='gap-5' subtitleClassName='max-w-120'/>
                 <Button variant='primary' onClick={() => navigate('/contacto')}>{content.buttonText}</Button>
             </div>

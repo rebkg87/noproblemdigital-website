@@ -93,7 +93,7 @@ export const TextSection = ({
     const dir = directionClasses[direction];
 
     return (
-        <div className={`flex flex-col ${align} p-10 md:w-auto h-auto ${label ? 'gap-10' : ''} ${className}`}>
+        <div className={`flex flex-col ${align} md:w-auto h-auto ${label ? 'gap-10' : ''} ${className}`}>
             {label && (
                 <span className={`font-primary text-size-h3 font-h3 leading-line-h3 uppercase tracking-[0.23em] ${colors.label}`}>
                     {label}
