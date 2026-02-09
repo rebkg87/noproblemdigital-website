@@ -7,7 +7,7 @@ export const ProjectsGallery = () => {
     const [hovered, setHoverted] = useState(null);
 
     return (
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8.75 px-15">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8.75 md:px-15">
             {projects.map((project) => (
                 <motion.div
                     key={project.id}
