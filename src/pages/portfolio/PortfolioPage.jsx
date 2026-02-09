@@ -14,10 +14,10 @@ export const PortfolioPage = () => {
 
     return (
         <section>
-            <div className="px-2.5 md:px-31.25 pb-24 pt-35 md:pt-58.5 flex flex-col items-center justify-center gap-15 bg-brand-primary ">
+            <div className="px-15 md:px-31.25 pb-24 pt-35 md:pt-58.5 flex flex-col items-center justify-center gap-15 bg-brand-primary ">
                 <TextSection titleKey={content.title} subtitleKey={content.subtitle} variant='dark' direction="col" alignment="left" subtitleClassName="max-w-150" contentClassName="flex-col md:flex-row gap-8.75 md:!items-center" />
             </div>
-            <div className="bg-white px-7 md:px-32.5 py-12 flex flex-col gap-4 md:gap-8 items-center justify-center">
+            <div className="bg-white px-10 md:px-32.5 py-12 flex flex-col gap-4 md:gap-8 items-center justify-center">
                 <Dropdown
                     trigger={content.dropdown.label}
                     items={content.dropdown.options}

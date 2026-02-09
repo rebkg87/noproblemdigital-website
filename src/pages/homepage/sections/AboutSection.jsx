@@ -19,7 +19,7 @@ export const AboutSection = () => {
                     className="absolute bottom-0 right-0 w-60 h-75 md:w-65 md:h-95 object-cover rounded-tl-[40px] md:rounded-tl-[80px] z-20 border-4 md:border-6 border-white"
                 />
             </div>
-            <TextSection titleKey={content.title} subtitleKey={content.subtitle} variant="lightRed" contentClassName="gap-10" subtitleClassName="max-w-165" className="max-w-158" alignment="left" />
+            <TextSection titleKey={content.title} subtitleKey={content.subtitle} variant="lightRed" contentClassName="gap-10 py-10 md:py-0" subtitleClassName="max-w-165" className="max-w-158" alignment="left" />
         </section>
     )
 }
