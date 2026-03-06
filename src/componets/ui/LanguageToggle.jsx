@@ -14,7 +14,7 @@ export const LanguageToggle = () => {
         <div className="relative">
             <button onClick={()=> setIsOpen(!isOpen)} className="flex items-center gap-1">
                 {i18n.language.toUpperCase()}
-                <img src={ChevronIcon} alt="Arrow" className={`transition-transform ${isOpen ? 'rotate-180' : ''}`} />
+                <img src={ChevronIcon} alt="" className={`transition-transform ${isOpen ? 'rotate-180' : ''}`} />
             </button>
 
             {isOpen && (

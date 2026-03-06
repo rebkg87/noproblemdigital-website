@@ -2,8 +2,10 @@ import FooterLogo from "../icons/custom/FooterLogo"
 import { NavigationMenu } from "../ui/NavigationMenu"
 import instagramIcon from "../../assets/icons/instagram.svg"
 import linkedinIcon from "../../assets/icons/linkedin.svg"
+import { useTranslation } from "react-i18next"
 
 export const Footer = () => {
+    const { t } = useTranslation();
     return (
         <div className="w-full h-auto md:h-64.25 py-15 px-2.5 pb-10 md:px-17 bg-white flex flex-col md:flex-row items-center justify-center sticky bottom-0 gap-15 md:gap-64.25">
             <FooterLogo/>
@@ -14,8 +16,8 @@ export const Footer = () => {
                 </p>
             </div>
             <div className="flex flex-row items-center gap-5">
-                <img src={instagramIcon} alt="Instagram Icon" />
-                <img src={linkedinIcon} alt="LinkedIn Icon" />
+                <img src={instagramIcon} alt={t('images.instagram')} />
+                <img src={linkedinIcon} alt={t('images.linkedin')} />
             </div>
         </div>
     )

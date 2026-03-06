@@ -23,6 +23,11 @@
             }
         ]
     },
+    "images": {
+        "logo": "No Problem Digital",
+        "instagram": "No Problem Digital on Instagram",
+        "linkedin": "No Problem Digital on LinkedIn"
+    },
     "hero": {
         "title": "without the hassle.",
         "subtitle": "We create authentic brands that sell, connect, and grow with you. We handle the complexities so you can focus on what matters.",
@@ -99,7 +104,9 @@
     },
     "about": {
         "title": "Your creative, strategic team\n— no nonsense.",
-        "subtitle": "We are a creative studio that brings together design, development, marketing, and content to help brands grow with clarity, coherence, and purpose. With over 15 years of combined experience, we work from a holistic approach that goes beyond visuals: we understand what your project needs, how to communicate it, and how to make it work.\n\nAt No Problem Digital, we believe in working closely with you, with transparency and aligned to your goals. No empty formulas or unnecessary jargon — we turn ideas into real results, without complications."
+        "subtitle": "We are a creative studio that brings together design, development, marketing, and content to help brands grow with clarity, coherence, and purpose. With over 15 years of combined experience, we work from a holistic approach that goes beyond visuals: we understand what your project needs, how to communicate it, and how to make it work.\n\nAt No Problem Digital, we believe in working closely with you, with transparency and aligned to your goals. No empty formulas or unnecessary jargon — we turn ideas into real results, without complications.",
+        "teamMember1Alt": "Andrés, co-founder of No Problem Digital",
+        "teamMember2Alt": "Rebeca, co-founder of No Problem Digital"
     },
     "projects": {
         "label": "PROJECTS",
@@ -140,6 +147,7 @@
     },
     "contact": {
         "title": "Let's start something\n*with intention*.",
+        "teamImageAlt": "No Problem Digital team",
         "subtitle": "We don't believe in endless forms or messages that disappear into the void. Tell us what you have in mind and we'll see if we're a good fit. If we vibe, we build it together. No complications.",
         "button-text": "Let's talk",
         "checkbox": "I agree to the terms of use and privacy policy.",
@@ -211,6 +219,7 @@
             {
                 "id": "penta-c",
                 "title": "Penta-C",
+                "alt": "Cover of Penta-C project – visual identity for sustainable energy communities",
                 "description": "A European project focused on fostering sustainable energy communities by combining technological innovation, citizen participation, and new governance models. We developed the project's visual identity and graphic materials, including logo design and communication assets for both digital and print environments, creating a clear and cohesive visual system aligned with the values of sustainability, innovation, and collaboration that define PENTA-C.",
                 "tags": [
                     "Branding",
@@ -239,6 +248,7 @@
             {
                 "id": "nissan",
                 "title": "Nissan Mexico Playbook",
+                "alt": "Cover of Nissan Mexico Playbook – strategic editorial design for dealer network",
                 "description": "Editorial design and layout of a strategic playbook developed for Nissan and its dealer network, focused on comprehensive human talent management. We transformed highly technical, extensive, and structured content into a clear, usable piece that remained visually consistent with the Nissan brand, preserving information hierarchy and making it easier to read and apply in real business contexts.",
                 "tags": [
                     "Graphic Design"
@@ -255,6 +265,7 @@
             {
                 "id": "peterjamsSeafood",
                 "title": "Peterjam's Seafood",
+                "alt": "Cover of Peterjam's Seafood – graphic identity and packaging label design for seafood brand",
                 "description": "A vacuum-sealed seafood brand focused on offering freshness, quality, and trust through a clear and recognizable visual proposal. We developed the brand's complete graphic identity, including the visual system, corporate stationery, and packaging label design, paying close attention to readability, information hierarchy, and point-of-sale coherence. We also supported the project with copywriting pieces to reinforce the brand tone and value proposition.",
                 "tags": [
                     "Graphic Design",
@@ -272,6 +283,7 @@
             {
                 "id": "revista-violencia",
                 "title": "Gender Violence\nand Gender Violence Alert Against Women",
+                "alt": "Cover of the Gender Violence magazine – social awareness editorial design in Mexico",
                 "description": "An editorial project focused on awareness, prevention, and social education around gender-based violence in Mexico, as well as the dissemination of protection and reporting mechanisms available to women. We developed the graphic design and layout of the magazine, creating a clear, accessible, and educational visual system that facilitated the understanding of complex and sensitive information.",
                 "tags": [
                     "Graphic Design",
@@ -288,6 +300,7 @@
             {
                 "id": "colegio-reims",
                 "title": "Colegio Reims",
+                "alt": "Cover of Colegio Reims project – brand strategy and full digital communication",
                 "description": "An educational institution for which we acted as a full creative agency for two years, supporting the evolution and consolidation of its brand across digital and physical environments.\n\nWe developed the brand strategy, creative campaigns, and communication framework, defining tone, key messages, and visual direction. We delivered graphic solutions for social media, advertising campaigns, ads, web development, POP materials, and large-format displays, as well as copywriting aligned with the school's values and objectives. The work focused on strengthening emotional connection with the educational community, improving engagement, and reinforcing brand recall across all touchpoints.",
                 "tags": [
                     "Graphic Design",
