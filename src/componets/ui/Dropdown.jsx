@@ -54,7 +54,7 @@ export const Dropdown = ({
                         <span className="text-brand-primary">
                             {value || trigger}
                         </span>
-                        <img src={ChevronIcon} alt="Arrow" className={`block w-4 h-4 shrink-0transition-transform ${isOpen ? 'rotate-180' : ''}`} />
+                        <img src={ChevronIcon} alt="" className={`block w-4 h-4 shrink-0transition-transform ${isOpen ? 'rotate-180' : ''}`} />
                     </motion.button>
 
                     {isOpen && (

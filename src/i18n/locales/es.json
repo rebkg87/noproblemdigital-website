@@ -23,6 +23,11 @@
             }
         ]
     },
+    "images": {
+        "logo": "No Problem Digital",
+        "instagram": "No Problem Digital en Instagram",
+        "linkedin": "No Problem Digital en LinkedIn"
+    },
     "hero": {
         "title": "sin complicaciones.",
         "subtitle": "Creamos marcas auténticas que venden, conectan y crecen contigo. Nos encargamos de lo complejo para que tú te enfoques en lo importante.",
@@ -99,7 +104,9 @@
     },
     "about": {
         "title": "Tu equipo creativo, estratégico y sin rodeos.",
-        "subtitle": "Somos un estudio creativo que une diseño, desarrollo, marketing y contenido para ayudar a marcas a crecer con claridad, coherencia y propósito. Con más de 15 años de experiencia combinada, trabajamos desde un enfoque integral que va más allá de lo visual: entendemos qué necesita tu proyecto, cómo comunicarlo y cómo hacerlo funcionar.\n\nEn No Problem Digital creemos en trabajar de forma cercana, clara y alineada a tus objetivos. No usamos fórmulas vacías ni tecnicismos innecesarios: transformamos ideas en resultados reales, sin complicaciones."
+        "subtitle": "Somos un estudio creativo que une diseño, desarrollo, marketing y contenido para ayudar a marcas a crecer con claridad, coherencia y propósito. Con más de 15 años de experiencia combinada, trabajamos desde un enfoque integral que va más allá de lo visual: entendemos qué necesita tu proyecto, cómo comunicarlo y cómo hacerlo funcionar.\n\nEn No Problem Digital creemos en trabajar de forma cercana, clara y alineada a tus objetivos. No usamos fórmulas vacías ni tecnicismos innecesarios: transformamos ideas en resultados reales, sin complicaciones.",
+        "teamMember1Alt": "Andrés, co-fundador de No Problem Digital",
+        "teamMember2Alt": "Rebeca, co-fundadora de No Problem Digital"
     },
     "projects": {
         "label": "PROYECTOS",
@@ -114,6 +121,7 @@
     },
     "contact": {
         "title": "Empecemos algo\ncon *intención*.",
+        "teamImageAlt": "Equipo de No Problem Digital",
         "subtitle": "No creemos en formularios eternos ni en mensajes que caen en el vacío. Cuéntanos qué tienes en mente y vemos si encajamos. Si vibramos, lo construimos juntos. Sin complicaciones.",
         "button-text": "Hablemos",
         "checkbox": "Estoy de acuerdo con los términos de uso y política de privacidad.",
@@ -185,6 +193,7 @@
             {
                 "id": "penta-c",
                 "title": "Penta-C",
+                "alt": "Portada del proyecto Penta-C – identidad visual de comunidades energéticas sostenibles",
                 "description": "Proyecto europeo centrado en el impulso de comunidades energéticas sostenibles, combinando innovación tecnológica, participación ciudadana y nuevos modelos de gobernanza. Desarrollamos la identidad visual y los materiales gráficos del proyecto, incluyendo el diseño del logotipo y piezas de comunicación para entornos digitales e impresos, enfocados en crear un sistema visual claro y coherente, alineado con los valores de sostenibilidad, innovación y colaboración que definen PENTA-C.",
                 "tags": [
                     "Branding",
@@ -213,6 +222,7 @@
             {
                 "id": "nissan",
                 "title": "Playbook Nissan México",
+                "alt": "Portada del Playbook Nissan México – diseño editorial estratégico para red de distribuidores",
                 "description": "Diseño y diagramación editorial de un playbook estratégico desarrollado para Nissan y su red de distribuidores, enfocado en la gestión integral del talento humano, transformando un contenido técnico, extenso y altamente estructurado en una pieza clara, usable y visualmente coherente con la marca Nissan, manteniendo la jerarquía de la información y facilitando su lectura y aplicación en contextos reales de negocio.",
                 "tags": [
                     "Diseño Gráfico"
@@ -229,6 +239,7 @@
             {
                 "id": "peterjamsSeafood",
                 "title": "Peterjam's Seafood",
+                "alt": "Portada de Peterjam's Seafood – identidad gráfica y diseño de etiquetas para empaques de mariscos",
                 "description": "Marca de productos del mar empacados al vacío, enfocada en ofrecer frescura, calidad y confianza a través de una propuesta visual clara y reconocible. Desarrollamos la identidad gráfica completa de la marca, incluyendo el sistema visual, papelería corporativa y el diseño de etiquetas para empaques, cuidando la legibilidad, jerarquía de información y coherencia en el punto de venta. Además, apoyamos el proyecto con piezas de copy para reforzar el tono de marca y su propuesta de valor.",
                 "tags": [
                     "Diseño Gráfico",
@@ -246,6 +257,7 @@
             {
                 "id": "revista-violencia",
                 "title": "Violencia de Género\ny Alerta de Violencia de Género contra las Mujeres",
+                "alt": "Portada de la revista sobre Violencia de Género – diseño editorial de concienciación social en México",
                 "description": "Proyecto editorial de divulgación y concienciación social enfocado en informar, prevenir y visibilizar la violencia de género en México, así como en difundir los mecanismos de protección y denuncia disponibles para las mujeres. Desarrollamos el diseño gráfico y la diagramación de la revista, creando un sistema visual claro, accesible y didáctico que facilitara la comprensión de información compleja y sensible.",
                 "tags": [
                     "Diseño Gráfico",
@@ -262,6 +274,7 @@
             {
                 "id": "colegio-reims",
                 "title": "Colegio Reims",
+                "alt": "Portada del proyecto Colegio Reims – estrategia de marca y comunicación digital integral",
                 "description": "Institución educativa para la que actuamos como agencia creativa integral durante dos años, acompañando la evolución y consolidación de su marca en entornos digitales y presenciales.\n\nDesarrollamos la estrategia de marca, campañas creativas y línea de comunicación, definiendo el tono, los mensajes clave y el enfoque visual. Ejecutamos soluciones gráficas para redes sociales, campañas publicitarias, Ads, desarrollo web, material POP y espectaculares, además de la creación de copys alineados con los valores y objetivos del colegio. El trabajo estuvo orientado a fortalecer la conexión emocional con la comunidad educativa, mejorar el engagement y reforzar la recordación de marca en todos los puntos de contacto.",
                 "tags": [
                     "Diseño Gráfico",

@@ -14,7 +14,7 @@ export const CTASection = () => {
                 style={{ backgroundImage: `url(${bgCTA})` }}
             />
             <div className="relative px-15 md:px-0 flex flex-col items-center justify-center gap-8.75 pt-15 md:pt-54 pb-25 md:pb-0">
-                <TextSection variant="dark" titleKey={content.title} subtitleKey={content.subtitle} contentClassName="gap-5"/>
+                <TextSection as="h2" variant="dark" titleKey={content.title} subtitleKey={content.subtitle} contentClassName="gap-5"/>
                 <Button onClick={() => navigate('/contacto')}>{content.buttonText}</Button>
             </div>
         </section>
